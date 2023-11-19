@@ -1,5 +1,5 @@
 ---
-title: Docker
+title: Instalación. Docker
 tags: [getting_started, troubleshooting]
 keywords:
 summary: "Herramienta para que el ZX Game Maker funcione en todos los Sistemas Operativos (Windows, Mac OS y Linux)"
