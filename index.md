@@ -26,4 +26,10 @@ Podéis ver una presentación WIP en el siguiente vídeo:
 
 ZX Game Maker usa [Boriel's ZX Basic](https://zxbasic.readthedocs.io/en/docs/), [GuSprites sprites library](https://github.com/gusmanb/GuSprites) y python para scripting
 
+## Telegram
+
+Si tienes dudas y quieres participar con otros desarrolladores que están usando el ZX Game Maker, podéis acceder al siguiente canal de Telegram:
+
+Grupo de Telegram: [https://t.me/zx_spectrum_game_maker](https://t.me/zx_spectrum_game_maker)
+
 {% include links.html %}
