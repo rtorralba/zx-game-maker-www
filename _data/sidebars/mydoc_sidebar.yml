@@ -30,6 +30,10 @@ entries:
       - title: Docker
         url: /mydoc_install_docker.html
         output: web, pdf
+      
+      - title: Proyecto
+        url: /mydoc_install_skeleton_project.html
+        output: web, pdf
   - title: Imágenes base
     output: web, pdf
     folderitems:
