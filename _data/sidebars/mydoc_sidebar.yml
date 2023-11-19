@@ -12,6 +12,10 @@ entries:
         url: /index.html
         output: web, pdf
         type: homepage
+      - title: Créditos
+        url: /mydoc_credits.html
+        output: web, pdf
+        type: homepage
   - title: Instalación
     output: web, pdf
     folderitems:
