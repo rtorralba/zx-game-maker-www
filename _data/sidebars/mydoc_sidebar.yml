@@ -1,0 +1,88 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+entries:
+- title: sidebar
+  product: Menú
+  version: 
+  folders:
+  - title: Overview
+    output: web, pdf
+    folderitems:
+      - title: Presentación
+        url: /index.html
+        output: web, pdf
+        type: homepage
+  - title: Instalación
+    output: web, pdf
+    folderitems:
+      - title: Editor de imágenes
+        url: /mydoc_install_image_editor.html
+        output: web, pdf
+
+      - title: Tiled
+        url: /mydoc_install_tiled.html
+        output: web, pdf
+
+      - title: Docker
+        url: /mydoc_install_docker.html
+        output: web, pdf
+  - title: Imágenes base
+    output: web, pdf
+    folderitems:
+      - title: Pantallas
+        url: /mydoc_install_image_editor.html
+        output: web, pdf
+
+      - title: Tileset
+        url: /mydoc_install_tiled.html
+        output: web, pdf
+
+      - title: Spriteset
+        url: /mydoc_install_docker.html
+        output: web, pdf
+  - title: Diseñando el juego
+    output: web, pdf
+    folderitems:
+      - title: Crear el mapa
+        url: /mydoc_install_image_editor.html
+        output: web, pdf
+
+      - title: Preferencias
+        url: /mydoc_install_tiled.html
+        output: web, pdf
+
+      - title: Tilesets
+        url: /mydoc_install_docker.html
+        output: web, pdf
+
+      - title: Dibujando el mapa
+        url: /mydoc_install_docker.html
+        output: web, pdf
+
+      - title: Añadiendo enemigos
+        url: /mydoc_install_docker.html
+        output: web, pdf
+
+      - title: Añadiendo objetos
+        url: /mydoc_install_docker.html
+        output: web, pdf
+  - title: Sonido
+    output: web, pdf
+    folderitems:
+      - title: Efectos FX
+        url: /mydoc_install_image_editor.html
+        output: web, pdf
+
+      - title: Música
+        url: /mydoc_install_tiled.html
+        output: web, pdf
+
+  - title: Release Notes
+    output: web, pdf
+    folderitems:
+
+    - title: Release notes
+      url: /mydoc_release_notes_60.html
+      output: web, pdf
+      
+# Copyright 2021 Google LLC
