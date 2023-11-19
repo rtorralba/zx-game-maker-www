@@ -10,7 +10,7 @@ folder: mydoc
 
 El ZX Spectrum Game Maker viene con un mapa de ejemplo y te recomendamos que uses ese editándolo. Pero explicamos que propiedades debe tener por si decides crear uno.
 
-Cuando crees en mapa tienes que seleccionar las siguientes propiedades:
+Cuando crees el mapa tienes que seleccionar las siguientes propiedades:
 
 * Orientation: Orthogonal.
 * Tile layer format: CSV.
@@ -20,7 +20,7 @@ Cuando crees en mapa tienes que seleccionar las siguientes propiedades:
 
 ![](images/new_map.png)
 
-Después ves al menu Map > Properties y marca el mapa como **infinito** y Output Chunk Width a 32 y Output Chunk Height a 22
+Después ve al menu Map > Properties y marca el mapa como **infinito** y Output Chunk Width a 32 y Output Chunk Height a 22
 
 ![](images/map_properties.png)
 

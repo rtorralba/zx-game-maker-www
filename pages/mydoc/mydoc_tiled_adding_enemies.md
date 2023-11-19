@@ -25,7 +25,7 @@ Es recomendable que le pongas un nombre al mismo para cuando referencies la posi
 ## Posición final
 
 * Haz clic en el botón **Insert point**.
-* Pon este punto donde quieras que para el enemigo manteniendo la tecla Ctrl.
+* Pon este punto donde quieras que pare el enemigo manteniendo la tecla Ctrl.
 * Añade a este punto una **propiedad personalizada** (custom property) **de tipo objeto** y selecciona el enemigo relacionado con este punto.
 
 ![](images/enemy_movement.png)

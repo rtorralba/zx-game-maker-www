@@ -13,7 +13,7 @@ Puedes añadir configuraciones generales de tu juego en las propiedades personal
 Propiedades personalizadas:
 
 * **bulletDistance**. Distancia que queramos que recorra la bala. Si seteamos una distancia corta como de 2, da el efecto de que el personaje ataca con el arma a corta distancia como una espada.
-* **damageAmount**. Cuanto daño le hacen al personaje los enemigos.
+* **damageAmount**. Cuánto daño le hacen al personaje los enemigos.
 * **enemiesRespawn**. Con esto seteamos si queremos que los enemigos vuelvan a aparecer, aunque los hayamos matado, cuando volvemos a la habitación.
 * **goalItems**. Número de items necesarios para finalizar el juego.
 * **initialLife**. Cantidad de vida inicial del personaje.

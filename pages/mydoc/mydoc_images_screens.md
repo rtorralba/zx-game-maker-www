@@ -8,13 +8,13 @@ permalink: mydoc_images_screens.html
 folder: mydoc
 ---
 
-Para crear tu juegos para ZX Spectrum necesitas crear/editar algunas imágenes.
+Para crear tus juegos para ZX Spectrum necesitas crear/editar algunas imágenes.
 
-**Pantallas** como la principal, de carga, HUD... Y el **Tileset** o conjunto de tiles que usarás para diseñar tu mapa y el **Spriteset** o conjunto de sprites como el personaje principal, enemigos...
+**Pantallas** como la principal, de carga, HUD... y el **Tileset** o conjunto de tiles que usarás para diseñar tu mapa y el **Spriteset** o conjunto de sprites como el personaje principal, enemigos...
 
 Tienes que crear 4 pantallas en PNG en la carpeta assets/screens loading.png, title.png, ending.png y hud.png
 
-Para el diseño de las mismas sólo podéis utilizar la paleta de colores del spectrum, si usáis programas especializados como [ZX Paintbrush](https://sourcesolutions.itch.io/zx-paintbrush) ya lo tienen en cuenta.
+Para el diseño de las mismas sólo podéis utilizar la paleta de colores del ZX Spectrum, si usáis programas especializados como [ZX Paintbrush](https://sourcesolutions.itch.io/zx-paintbrush) ya lo tienen en cuenta.
 
 Tenéis ejemplos en la misma carpeta para simplemente modificar las pantallas existentes y ver que requisitos tienen (tamaño...)
 

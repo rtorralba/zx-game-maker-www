@@ -40,7 +40,7 @@ Las habitaciones tiene que estar completas, no se pueden diseñar habitaciones q
 
 ## Crear capas
 
-Necesitamos 2 capas, una para pintar nuestro escenario y otra para situar los elementos como enemigos en el mismo.
+Necesitamos 2 capas, una para pintar nuestro escenario y otra para situar los elementos, como enemigos, en el mismo.
 
 ![](./images/layers.png)
 
