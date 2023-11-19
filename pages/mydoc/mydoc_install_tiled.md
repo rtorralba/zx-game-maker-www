@@ -1,5 +1,5 @@
 ---
-title: Instalar Tiled. Herramienta para diseñar nuestras pantallas y posicionar los elementos en ellas.
+title: Instalación. Tiled.
 tags: [getting_started, troubleshooting]
 keywords:
 summary: "Este Game Maker usa Tiled para diseñar el mapa de tu juego y posicionar todos los elementos en el mismo."

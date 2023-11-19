@@ -30,59 +30,83 @@ entries:
     output: web, pdf
     folderitems:
       - title: Pantallas
-        url: /mydoc_install_image_editor.html
+        url: /mydoc_images_screens.html
         output: web, pdf
 
       - title: Tileset
-        url: /mydoc_install_tiled.html
+        url: /mydoc_images_tileset.html
         output: web, pdf
 
       - title: Spriteset
-        url: /mydoc_install_docker.html
+        url: /mydoc_images_spriteset.html
         output: web, pdf
   - title: Diseñando el juego
     output: web, pdf
     folderitems:
+      - title: Introducción
+        url: /mydoc_tiled_overview.html
+        output: web, pdf
+
+      - title: Configuración general
+        url: /mydoc_tiled_general_configuration.html
+        output: web, pdf
+
       - title: Crear el mapa
-        url: /mydoc_install_image_editor.html
+        url: /mydoc_tiled_create_map.html
         output: web, pdf
 
       - title: Preferencias
-        url: /mydoc_install_tiled.html
+        url: /mydoc_tiled_preferences.html
         output: web, pdf
 
       - title: Tilesets
-        url: /mydoc_install_docker.html
+        url: /mydoc_tiled_tilesets.html
         output: web, pdf
 
       - title: Dibujando el mapa
-        url: /mydoc_install_docker.html
+        url: /mydoc_tiled_drawing_map.html
         output: web, pdf
 
       - title: Añadiendo enemigos
-        url: /mydoc_install_docker.html
+        url: /mydoc_tiled_adding_enemies.html
         output: web, pdf
 
       - title: Añadiendo objetos
-        url: /mydoc_install_docker.html
+        url: /mydoc_tiled_adding_objects.html
         output: web, pdf
+
   - title: Sonido
     output: web, pdf
     folderitems:
       - title: Efectos FX
-        url: /mydoc_install_image_editor.html
+        url: /mydoc_sound_fx.html
         output: web, pdf
 
       - title: Música
-        url: /mydoc_install_tiled.html
+        url: /mydoc_sound_music.html
+        output: web, pdf
+  
+  - title: Generar el juego
+    output: web, pdf
+    folderitems:
+      - title: Windows
+        url: /mydoc_generating_windows.html
+        output: web, pdf
+
+      - title: Mac OS
+        url: /mydoc_generating_mac_os.html
+        output: web, pdf
+      
+      - title: Linux
+        url: /mydoc_generating_linux.html
         output: web, pdf
 
   - title: Release Notes
     output: web, pdf
     folderitems:
 
-    - title: Release notes
-      url: /mydoc_release_notes_60.html
+    - title: 2023-11-19
+      url: /mydoc_release_notes_2023_11_19.html
       output: web, pdf
-      
+
 # Copyright 2021 Google LLC
