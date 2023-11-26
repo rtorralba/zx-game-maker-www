@@ -82,6 +82,10 @@ entries:
       - title: Añadiendo objetos
         url: /mydoc_tiled_adding_objects.html
         output: web, pdf
+      
+      - title: Añadiendo plataformas móviles
+        url: /mydoc_tiled_adding_platforms.html
+        output: web, pdf
 
   - title: Sonido
     output: web, pdf
@@ -113,6 +117,10 @@ entries:
     output: web, pdf
     folderitems:
 
+    - title: 2023-11-26
+      url: /mydoc_release_notes_2023_11_26.html
+      output: web, pdf
+      
     - title: 2023-11-19
       url: /mydoc_release_notes_2023_11_19.html
       output: web, pdf

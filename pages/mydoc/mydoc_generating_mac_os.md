@@ -13,7 +13,7 @@ Todo lo relativo a tu proyecto está dentro de la carpeta assets, te recomiendo 
 En la consola de comandos dentro de la carpeta de tu juego
 
 ```bash
-./game-game-mac.sh
+./make-game-mac.sh
 ```
 
 {% include links.html %}
