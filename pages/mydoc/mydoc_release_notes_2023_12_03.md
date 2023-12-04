@@ -9,7 +9,7 @@ folder: mydoc
 ---
 
 ## Nuevas funcionalidades
-* **Capacidad de añadir hasta 5 enemigos**
+* Capacidad de añadir **hasta 5 enemigos**
 
 ## Mejoras técnicas
 * Ajustados **limites de pantalla** al cambiar de una "habitación" a otra
