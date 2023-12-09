@@ -16,7 +16,7 @@ Los siguientes 6 sprites (9 - 14) se usarán para las plataformas en movimiento 
 
 El siguiente sprite se usará para mostrar la explosión del enemigo cuando lo mates.
 
-Los 16 sprites restantes se usarán para los enemigos, 4 para cada enemigo, 2 frames de animación para cada sentido, es decir, podrás definir un total de 4 enemigos.
+Los 16 sprites restantes se usarán para los enemigos, 2 para cada enemigo, 2 frames de animación, es decir, podrás definir un total de 8 enemigos. Tiene que dibujar solamente los frames del enemigo hacia la derecha, hacia la izquierda ya los genera ZX Game Maker automáticamente.
 
 
 ![](./images/sprites.png)
