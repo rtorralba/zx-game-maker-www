@@ -24,7 +24,13 @@ ZX Game Maker necesita que definas 7 sonidos. Se reproducirán cuando en el jueg
 
 # Exportar para ZX Game Maker
 
-Para exportar tus efectos de sonido para el ZX Spectrum Game Maker, sólo tendrás que ir al menu File > Compile. Seleccionar **Assembly** e **Include player code**, pulsar **Compile** y guardar el archivo en tu carpeta **assets** con el nombre **soundEffects.asm**
+Para exportar tus efectos de sonido para el ZX Spectrum Game Maker, sólo tendrás que ir al menu File > Compile.
+* Seleccionar **Tap image**
+* En **Code address** poner 49152 
+* Seleccionar **Include player code**
+* Deseleccionar **Include basic test**
+* Pulsar **Compile**
+* Guardar el archivo en tu carpeta **assets/fx** con el nombre **fx.tap**
 
 ![](images/beepfx_compile.png)
 
