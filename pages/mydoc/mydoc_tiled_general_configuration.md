@@ -12,7 +12,11 @@ Puedes añadir configuraciones generales de tu juego en las propiedades personal
 
 Propiedades personalizadas:
 
+* **VTPLAYER_INIT** (string). Posición de memoria inicial para la música vortex (Se verá en el capítulo de música en el juego)
+* **VTPLAYER_MUTE** (string). Posición de memoria de mute para la música vortex (Se verá en el capítulo de música en el juego)
+* **VTPLAYER_NEXTNOTE** (string). Posición de memoria para reproducir la próxima nota para la música vortex (Se verá en el capítulo de música en el juego)
 * **bulletDistance** (int). Distancia que queramos que recorra la bala. Si seteamos una distancia corta como de 2, da el efecto de que el personaje ataca con el arma a corta distancia como una espada.
+* **gameName** (string). Nombre del juego. Aparecerá en el título loading cuando carga y el tap se generará con este nombre.
 * **damageAmount** (int). Cuánto daño le hacen al personaje los enemigos.
 * **enemiesRespawn** (int). Con esto seteamos si queremos que los enemigos vuelvan a aparecer, aunque los hayamos matado, cuando volvemos a la habitación.
 * **goalItems** (int). Número de items necesarios para finalizar el juego.
