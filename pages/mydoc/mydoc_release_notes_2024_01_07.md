@@ -1,5 +1,5 @@
 ---
-title: Release notes. 2023-12-03
+title: Release notes. 2024-01-07
 tags: [documentation]
 keywords:
 summary: 
