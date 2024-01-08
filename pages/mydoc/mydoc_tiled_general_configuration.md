@@ -18,7 +18,6 @@ Propiedades personalizadas:
 * **bulletDistance** (int). Distancia que queramos que recorra la bala. Si seteamos una distancia corta como de 2, da el efecto de que el personaje ataca con el arma a corta distancia como una espada.
 * **gameName** (string). Nombre del juego. Aparecerá en el título loading cuando carga y el tap se generará con este nombre. 10 carácteres como máximo sin carácteres especiales (acentos, ñ...)
 * **damageAmount** (int). Cuánto daño le hacen al personaje los enemigos.
-* **enemiesRespawn** (int). Con esto seteamos si queremos que los enemigos vuelvan a aparecer, aunque los hayamos matado, cuando volvemos a la habitación.
 * **goalItems** (int). Número de items necesarios para finalizar el juego.
 * **initialLife** (int). Cantidad de vida inicial del personaje.
 * **lifeAmount** (int). Cantidad de vida que incrementa al personaje los items **life**.
