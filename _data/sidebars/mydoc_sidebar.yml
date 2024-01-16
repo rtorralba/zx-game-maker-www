@@ -117,6 +117,10 @@ entries:
     output: web, pdf
     folderitems:
 
+    - title: 2024-01-16
+      url: /mydoc_release_notes_2024_01_16.html
+      output: web, pdf
+
     - title: 2024-01-07
       url: /mydoc_release_notes_2024_01_07.html
       output: web, pdf
