@@ -18,7 +18,7 @@ folder: mydoc
 ![](images/memory.png)
 
 ## Mejoras técnicas
-* Optimizada la velocidad de carga de pantalla en un 31%. De 45 ms a 31 ms.
+* Optimizada la velocidad de carga de pantalla en un 66,6%. De 45 a 15 frames.
 
 ![](images/mejora_carga_pantalla.png)
 
