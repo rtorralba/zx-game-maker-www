@@ -8,6 +8,8 @@ permalink: mydoc_tiled_adding_objects.html
 folder: mydoc
 ---
 
+Los tiles que representan objetos se tendran que situar los 4 últimos del sprite set (188, 189, 190, 191).
+
 ## Item
 
 Este es el objeto que el protagonista deberá ir recogiendo por todo el juego para finalizar el mismo (Es configurable).
