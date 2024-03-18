@@ -117,7 +117,7 @@ entries:
     output: web, pdf
     folderitems:
       - title: Instalación e Imágenes
-        url: https://www.youtube.com/watch?v=-bX32WbLJHI
+        external_url: https://www.youtube.com/watch?v=-bX32WbLJHI
         output: web, pdf
 
   - title: Release Notes
