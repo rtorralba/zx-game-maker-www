@@ -113,6 +113,13 @@ entries:
         url: /mydoc_generating_linux.html
         output: web, pdf
 
+  - title: Curso en vídeo
+    output: web, pdf
+    folderitems:
+      - title: Instalación e Imágenes
+        url: https://www.youtube.com/watch?v=-bX32WbLJHI
+        output: web, pdf
+
   - title: Release Notes
     output: web, pdf
     folderitems:
