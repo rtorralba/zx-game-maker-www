@@ -27,73 +27,75 @@ Propiedades personalizadas:
 * **shouldKillEnemies** (bool). Con esta propiedad activa, si una habitación tiene enemigos, no podremos salir de ella hasta que los matemos a todos.
 * **backgroundAttibute** (int). Color de fondo del juego en decimal en forma de atributos de spectrum. Por ejemplo para color de fondo negro con sprites en blanco seria 7 (00000111). Para color de fondo azul con sprites en blanco seria 15 (00001111). Si no se define este atributo se pintara fondo negro sprites blancos. Podéis usar la calculadora siguiente para saber que valor tenéis que poner.
 
-<h4>Generador de Atributos ZX Spectrum</h4>
-<form id="attributeForm">
-    <label for="inkColor">Color de Tinta:</label>
-    <!-- Añadir color en cada opcion del select -->
-    <select id="inkColor">
-        <option value="0">Negro</option>
-        <option value="1">Azul</option>
-        <option value="2">Rojo</option>
-        <option value="3">Magenta</option>
-        <option value="4">Verde</option>
-        <option value="5">Cyan</option>
-        <option value="6">Amarillo</option>
-        <option value="7" selected>Blanco</option>
-    </select><br>
-    <label for="paperColor">Color de Papel:</label>
-    <select id="paperColor">
-        <option value="0">Negro</option>
-        <option value="1">Azul</option>
-        <option value="2">Rojo</option>
-        <option value="3">Magenta</option>
-        <option value="4">Verde</option>
-        <option value="5">Cyan</option>
-        <option value="6">Amarillo</option>
-        <option value="7">Blanco</option>
-    </select><br>
-    <label for="brightness">Brillo:</label>
-    <input type="checkbox" id="brightness" name="brightness"><br>
-    <label for="flashing">Parpadeo:</label>
-    <input type="checkbox" id="flashing" name="flashing"><br>
-    <button type="button" onclick="generateAttribute()">Generar Atributo</button>
-</form>
-<br>
-<p id="attributeOutput" style="font-weight: bold"></p>
+<div>
+    <h4>Generador de Atributos ZX Spectrum</h4>
+    <form id="attributeForm">
+        <label for="inkColor">Color de Tinta:</label>
+        <!-- Añadir color en cada opcion del select -->
+        <select id="inkColor">
+            <option value="0">Negro</option>
+            <option value="1">Azul</option>
+            <option value="2">Rojo</option>
+            <option value="3">Magenta</option>
+            <option value="4">Verde</option>
+            <option value="5">Cyan</option>
+            <option value="6">Amarillo</option>
+            <option value="7" selected>Blanco</option>
+        </select><br>
+        <label for="paperColor">Color de Papel:</label>
+        <select id="paperColor">
+            <option value="0">Negro</option>
+            <option value="1">Azul</option>
+            <option value="2">Rojo</option>
+            <option value="3">Magenta</option>
+            <option value="4">Verde</option>
+            <option value="5">Cyan</option>
+            <option value="6">Amarillo</option>
+            <option value="7">Blanco</option>
+        </select><br>
+        <label for="brightness">Brillo:</label>
+        <input type="checkbox" id="brightness" name="brightness"><br>
+        <label for="flashing">Parpadeo:</label>
+        <input type="checkbox" id="flashing" name="flashing"><br>
+        <button type="button" onclick="generateAttribute()">Generar Atributo</button>
+    </form>
+    <br>
+    <p id="attributeOutput" style="font-weight: bold"></p>
 
-<script>
-    function generateAttribute() {
-        // Leer los valores de los campos de entrada
-        var inkColor = document.getElementById('inkColor').value;
-        var paperColor = document.getElementById('paperColor').value;
-        var brightness = document.getElementById('brightness').checked;
-        var flashing = document.getElementById('flashing').checked;
+    <script>
+        function generateAttribute() {
+            // Leer los valores de los campos de entrada
+            var inkColor = document.getElementById('inkColor').value;
+            var paperColor = document.getElementById('paperColor').value;
+            var brightness = document.getElementById('brightness').checked;
+            var flashing = document.getElementById('flashing').checked;
 
-        // Calcular el atributo
-        var attribute = calculateAttribute(inkColor, paperColor, brightness, flashing);
+            // Calcular el atributo
+            var attribute = calculateAttribute(inkColor, paperColor, brightness, flashing);
 
-        // Mostrar el atributo
-        document.getElementById('attributeOutput').innerText = 'Atributo: ' + attribute;
-    }
+            // Mostrar el atributo
+            document.getElementById('attributeOutput').innerText = 'Atributo: ' + attribute;
+        }
 
-    function calculateAttribute(inkColor, paperColor, brightness, flashing) {
-        // Aquí es donde se calcularía el atributo basado en los colores de tinta y papel,
-        // el brillo y el parpadeo. Este código es un marcador de posición y debe ser reemplazado
-        // con el cálculo real.
-        binaryInkColor = decimalToBinary(inkColor).padStart(3, '0');
-        binaryPaperColor = decimalToBinary(paperColor).padStart(3, '0');
-        binaryBrightness = brightness ? '1' : '0';
-        binaryFlashing = flashing ? '1' : '0';
+        function calculateAttribute(inkColor, paperColor, brightness, flashing) {
+            // Aquí es donde se calcularía el atributo basado en los colores de tinta y papel,
+            // el brillo y el parpadeo. Este código es un marcador de posición y debe ser reemplazado
+            // con el cálculo real.
+            binaryInkColor = decimalToBinary(inkColor).padStart(3, '0');
+            binaryPaperColor = decimalToBinary(paperColor).padStart(3, '0');
+            binaryBrightness = brightness ? '1' : '0';
+            binaryFlashing = flashing ? '1' : '0';
 
-        decimal = parseInt(binaryBrightness + binaryFlashing + binaryPaperColor + binaryInkColor, 2)
+            decimal = parseInt(binaryBrightness + binaryFlashing + binaryPaperColor + binaryInkColor, 2)
 
-        return decimal.toString();
-    }
+            return decimal.toString();
+        }
 
-    function decimalToBinary(N) {
-        return (N >>> 0).toString(2);
-    }
-</script>
+        function decimalToBinary(N) {
+            return (N >>> 0).toString(2);
+        }
+    </script>
+</div>
 
 ![](images/general_settings.png)
 
