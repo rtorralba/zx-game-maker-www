@@ -17,7 +17,7 @@ Propiedades personalizadas:
 * **VTPLAYER_NEXTNOTE** (string). Posición de memoria para reproducir la próxima nota para la música vortex (Se verá en el capítulo de música en el juego)
 * **backgroundAttibute** (int). Color de fondo del juego en decimal en forma de atributos de spectrum. Por ejemplo para color de fondo negro con sprites en blanco seria 7 (00000111). Para color de fondo azul con sprites en blanco seria 15 (00001111). Si no se define este atributo se pintara fondo negro sprites blancos. Podéis usar la calculadora siguiente para saber que valor tenéis que poner.
 
-<h5>Generador de Atributos ZX Spectrum</h5>
+<h4>Generador de Atributos ZX Spectrum</h4>
 <form id="attributeForm">
     <label for="inkColor">Color de Tinta:</label>
     <!-- Añadir color en cada opcion del select -->
