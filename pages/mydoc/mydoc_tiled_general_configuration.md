@@ -15,7 +15,75 @@ Propiedades personalizadas:
 * **VTPLAYER_INIT** (string). Posición de memoria inicial para la música vortex (Se verá en el capítulo de música en el juego)
 * **VTPLAYER_MUTE** (string). Posición de memoria de mute para la música vortex (Se verá en el capítulo de música en el juego)
 * **VTPLAYER_NEXTNOTE** (string). Posición de memoria para reproducir la próxima nota para la música vortex (Se verá en el capítulo de música en el juego)
-* **backgroundAttibute** (int). Color de fondo del juego en decimal en forma de atributos de spectrum. Por ejemplo para color de fondo negro con sprites en blanco seria 7 (00000111). Para color de fondo azul con sprites en blanco seria 15 (00001111). Si no se define este atributo se pintara fondo negro sprites blancos.
+* **backgroundAttibute** (int). Color de fondo del juego en decimal en forma de atributos de spectrum. Por ejemplo para color de fondo negro con sprites en blanco seria 7 (00000111). Para color de fondo azul con sprites en blanco seria 15 (00001111). Si no se define este atributo se pintara fondo negro sprites blancos. Podéis usar la calculadora siguiente para saber que valor tenéis que poner.
+
+    <h3>Generador de Atributos ZX Spectrum</h3>
+    <form id="attributeForm">
+        <label for="inkColor">Color de Tinta:</label>
+        <!-- Añadir color en cada opcion del select -->
+        <select id="inkColor">
+            <option value="0">Negro</option>
+            <option value="1">Azul</option>
+            <option value="2">Rojo</option>
+            <option value="3">Magenta</option>
+            <option value="4">Verde</option>
+            <option value="5">Cyan</option>
+            <option value="6">Amarillo</option>
+            <option value="7" selected>Blanco</option>
+        </select><br>
+        <label for="paperColor">Color de Papel:</label>
+        <select id="paperColor">
+            <option value="0">Negro</option>
+            <option value="1">Azul</option>
+            <option value="2">Rojo</option>
+            <option value="3">Magenta</option>
+            <option value="4">Verde</option>
+            <option value="5">Cyan</option>
+            <option value="6">Amarillo</option>
+            <option value="7">Blanco</option>
+        </select><br>
+        <label for="brightness">Brillo:</label>
+        <input type="checkbox" id="brightness" name="brightness"><br>
+        <label for="flashing">Parpadeo:</label>
+        <input type="checkbox" id="flashing" name="flashing"><br>
+        <button type="button" onclick="generateAttribute()">Generar Atributo</button>
+    </form>
+    <p id="attributeOutput"></p>
+</body>
+<script>
+    function generateAttribute() {
+        // Leer los valores de los campos de entrada
+        var inkColor = document.getElementById('inkColor').value;
+        var paperColor = document.getElementById('paperColor').value;
+        var brightness = document.getElementById('brightness').checked;
+        var flashing = document.getElementById('flashing').checked;
+
+        // Calcular el atributo
+        var attribute = calculateAttribute(inkColor, paperColor, brightness, flashing);
+
+        // Mostrar el atributo
+        document.getElementById('attributeOutput').innerText = 'Atributo: ' + attribute;
+    }
+
+    function calculateAttribute(inkColor, paperColor, brightness, flashing) {
+        // Aquí es donde se calcularía el atributo basado en los colores de tinta y papel,
+        // el brillo y el parpadeo. Este código es un marcador de posición y debe ser reemplazado
+        // con el cálculo real.
+        binaryInkColor = decimalToBinary(inkColor).padStart(3, '0');
+        binaryPaperColor = decimalToBinary(paperColor).padStart(3, '0');
+        binaryBrightness = brightness ? '1' : '0';
+        binaryFlashing = flashing ? '1' : '0';
+
+        decimal = parseInt(binaryBrightness + binaryFlashing + binaryPaperColor + binaryInkColor, 2)
+
+        return decimal.toString();
+    }
+
+    function decimalToBinary(N) {
+        return (N >>> 0).toString(2);
+    }
+</script>
+
 * **bulletDistance** (int). Distancia que queramos que recorra la bala. Si seteamos una distancia corta como de 2, da el efecto de que el personaje ataca con el arma a corta distancia como una espada.
 * **gameName** (string). Nombre del juego. Aparecerá en el título loading cuando carga y el tap se generará con este nombre. 10 carácteres como máximo sin carácteres especiales (acentos, ñ...)
 * **damageAmount** (int). Cuánto daño le hacen al personaje los enemigos.
