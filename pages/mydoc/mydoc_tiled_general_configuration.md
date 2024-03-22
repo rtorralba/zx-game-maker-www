@@ -48,7 +48,8 @@ Propiedades personalizadas:
     <input type="checkbox" id="flashing" name="flashing"><br>
     <button type="button" onclick="generateAttribute()">Generar Atributo</button>
 </form>
-<p id="attributeOutput"></p>
+<br>
+<b><p id="attributeOutput"></p></b>
 
 <script>
     function generateAttribute() {
