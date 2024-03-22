@@ -59,7 +59,7 @@ Propiedades personalizadas:
     <button type="button" onclick="generateAttribute()">Generar Atributo</button>
 </form>
 <br>
-<b><p id="attributeOutput"></p></b>
+<p id="attributeOutput" style="font-weight: bold"></p>
 
 <script>
     function generateAttribute() {
