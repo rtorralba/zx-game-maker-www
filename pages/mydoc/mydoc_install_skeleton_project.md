@@ -18,18 +18,14 @@ La manera de trabajar es simplemente modificar los elementos dentro de la carpet
 
 **Windows**
 
-Doble clic en **game-game-win.bat**
+Doble clic en **game-game.bat**
 
-**Linux**
+**Linux y MacOS**
 
-```bash
-./game-game-lin.sh
-```
-
-**MacOS**
+Ejecutar script en la consola 
 
 ```bash
-./game-game-mac.sh
+./game-game.sh
 ```
 
 Después de ejecutarlo, si todo ha ido bien, **el juego estará en output/game.tap**
