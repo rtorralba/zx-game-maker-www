@@ -18,8 +18,6 @@ Para actualizar el motor solo habrá que hacer docle clic en el fichero update.b
 
 **update.bat**
 
-{% include links.html %}
-
 Al generar el juego también se generará en la carpeta **dist** una imágen con una representación gráfica de la memoria que ocupa tu proyecto para poder saber que ocupa cada elemento.
 
 ![](images/memory.png)
