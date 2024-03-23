@@ -22,5 +22,6 @@ Si se quiere actualizar el motos solo tendremos que añadir la opción --update
 ./make-game.sh --update
 ```
 
-{% include links.html %}
+Al generar el juego también se generará en la carpeta **dist** una imágen con una representación gráfica de la memoria que ocupa tu proyecto para poder saber que ocupa cada elemento.
 
+![](images/memory.png)
