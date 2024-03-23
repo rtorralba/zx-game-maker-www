@@ -18,17 +18,17 @@ La manera de trabajar es simplemente modificar los elementos dentro de la carpet
 
 **Windows**
 
-Doble clic en **game-game.bat**
+Doble clic en **make-game.bat**
 
 **Linux y MacOS**
 
 Ejecutar script en la consola 
 
 ```bash
-./game-game.sh
+./make-game.sh
 ```
 
-Después de ejecutarlo, si todo ha ido bien, **el juego estará en output/game.tap**
+Después de ejecutarlo, si todo ha ido bien, **el juego estará en dist/game.tap**
 
 Los ficheros de la carpeta output los puedes borrar sin problema porque son todos generados.
 
