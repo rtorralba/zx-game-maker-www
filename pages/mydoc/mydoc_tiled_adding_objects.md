@@ -42,9 +42,8 @@ Después ya puedes añadirlo a tu mapa arrastrándolo.
 
 ## Puerta que necesita que mates a todos los enemigos
 
-Este tile será considerado solido para el protagonista. deberás matar a todos los enemigos para abrir la puerta.
+Para utilizar esta puerta debes habilitar la opción **shouldKillEnemies**. El tile nº 64 (el último de la segunda fila), esta designado para añadir este tipo de puerta, solo añadirlo a tu mapa arrastrándolo. Deberás matar a todos los enemigos para abrir la puerta.
 
-El tile nº 64 (el último de la segunda fila), esta designado para añadir este tipo de puerta, solo añadirlo a tu mapa arrastrándolo.
 
 ![](images/type_enemy_door.png)
 
