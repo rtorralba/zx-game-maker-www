@@ -14,5 +14,9 @@ Hacer doble click en el siguiente archivo. El juego se generará en la carpeta *
 
 **make-game-win.bat**
 
+Para actualizar el motor solo habrá que hacer docle clic en el fichero update.bat
+
+**update.bat**
+
 {% include links.html %}
 

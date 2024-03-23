@@ -1,5 +1,5 @@
 ---
-title: Generando el juego. Linux
+title: Generando el juego. Linux y MacOS
 tags: [documentation]
 keywords:
 summary: 
@@ -13,7 +13,13 @@ Todo lo relativo a tu proyecto está dentro de la carpeta assets, te recomiendo 
 En la consola de comandos dentro de la carpeta de tu juego. El juego se generará en la carpeta **dist** junto con el mapa de memoria para que veas como vas de recursos.
 
 ```bash
-./make-game-lin.sh
+./make-game.sh
+```
+
+Si se quiere actualizar el motos solo tendremos que añadir la opción --update
+
+```bash
+./make-game.sh --update
 ```
 
 {% include links.html %}

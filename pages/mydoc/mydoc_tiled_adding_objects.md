@@ -20,7 +20,7 @@ Para ello haz clic en la rueda dentada de propiedades del tileset, selecciona el
 
 ![](images/type_item.png)
 
-## Puerta
+## Puerta que necesita llave
 
 Este tile será considerado solido para el protagonista. deberás tener al menos una **key** para abrir la puerta y cuando lo hagas se te restará de tu inventario.
 
@@ -39,6 +39,14 @@ Para setear un tile de este tipo haz clic en la rueda dentada de propiedades del
 Después ya puedes añadirlo a tu mapa arrastrándolo.
 
 ![](images/type_key.png)
+
+## Puerta que necesita que mates a todos los enemigos
+
+Este tile será considerado solido para el protagonista. deberás matar a todos los enemigos para abrir la puerta.
+
+El tile nº 64 (el último de la segunda fila), esta designado para añadir este tipo de puerta, solo añadirlo a tu mapa arrastrándolo.
+
+![](images/type_enemy_door.png)
 
 ## Vida
 

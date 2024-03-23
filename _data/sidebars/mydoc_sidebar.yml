@@ -105,11 +105,7 @@ entries:
         url: /mydoc_generating_windows.html
         output: web, pdf
 
-      - title: Mac OS
-        url: /mydoc_generating_mac_os.html
-        output: web, pdf
-      
-      - title: Linux
+      - title: Linux y Mac OS
         url: /mydoc_generating_linux.html
         output: web, pdf
 
