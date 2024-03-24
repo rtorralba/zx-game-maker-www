@@ -115,6 +115,9 @@ entries:
       - title: Instalación e Imágenes
         external_url: https://www.youtube.com/watch?v=-bX32WbLJHI
         output: web, pdf
+      - title: Diseñando el juego 1/2
+        external_url: https://www.youtube.com/watch?v=-MNX9Ff6tYg
+        output: web, pdf
 
   - title: Release Notes
     output: web, pdf
