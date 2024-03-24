@@ -86,7 +86,7 @@ Propiedades personalizadas:
             binaryBrightness = brightness ? '1' : '0';
             binaryFlashing = flashing ? '1' : '0';
 
-            decimal = parseInt(binaryBrightness + binaryFlashing + binaryPaperColor + binaryInkColor, 2)
+            decimal = parseInt(binaryFlashing + binaryBrightness + binaryPaperColor + binaryInkColor, 2)
 
             return decimal.toString();
         }
