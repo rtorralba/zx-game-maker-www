@@ -15,6 +15,7 @@ folder: mydoc
 * [Michal Jurica](https://sourceforge.net/u/mikezt/) [ub880d](https://sourceforge.net/u/ub880d) bin2tap
 * [Andy Balaam](https://github.com/andybalaam) bas2tap
 * [Einar Saukas](https://github.com/einar-saukas) ZX0
+* [Jimmy Devesa](https://twitter.com/Jimmy_Devesa) Música
 * [PixelArtM](https://twitter.com/PixelArtM) Sprites
 * [Isaías](https://isaiasdiaz.itch.io/) make-game.bat
 * [shiru8bit](http://shiru.untergrund.net) Beeper FX Sounds
