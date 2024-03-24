@@ -25,7 +25,7 @@ Propiedades personalizadas:
 * **musicEnabled** (bool). Para habilitar o deshabilitar la música AY. No es necesario que la deshabilites para generar el juego en 48k, el mismo juego con música funciona tanto en 48k como en 128k , simplemente en el 48k no suena la música.
 * **shooting** (bool). Con esto habilitamos o deshabilitamos el disparo del personaje.
 * **shouldKillEnemies** (bool). Con esta propiedad activa, si una habitación tiene enemigos, no podremos salir de ella hasta que los matemos a todos.
-* **backgroundAttibute** (int). Color de fondo del juego en decimal en forma de atributos de spectrum. Por ejemplo para color de fondo negro con sprites en blanco seria 7 (00000111). Para color de fondo azul con sprites en blanco seria 15 (00001111). Si no se define este atributo se pintara fondo negro sprites blancos. Podéis usar la calculadora siguiente para saber que valor tenéis que poner.
+* **backgroundAttribute** (int). Color de fondo del juego en decimal en forma de atributos de spectrum. Por ejemplo para color de fondo negro con sprites en blanco seria 7 (00000111). Para color de fondo azul con sprites en blanco seria 15 (00001111). Si no se define este atributo se pintara fondo negro sprites blancos. Podéis usar la calculadora siguiente para saber que valor tenéis que poner.
 
 <div style="margin: auto; width: 50%">
     <h4>Generador de Atributos ZX Spectrum</h4>
