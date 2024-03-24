@@ -18,7 +18,7 @@ Recomendamos usar [ZX Paintbrush](https://sourcesolutions.itch.io/zx-paintbrush)
 
 **ZX Spectrum Game Maker** se encuentra todavía en una fase beta con funcionalidades pendientes y a falta de un testeo intensivo. No se recomienda para un uso ya final, si bien tiene un estado muy avanzado en muchas de sus posibilidades, hay que ser consciente que no está en estado de lanzamiento.
 
-Curso por módulos:
+Curso por módulos en el canal de [Juanje Juega](https://www.twitch.tv/juanjel):
 
 [Instalación e Imágenes](https://www.youtube.com/watch?v=-bX32WbLJHI)
 [Diseñando el juego 1/2](https://www.youtube.com/watch?v=-MNX9Ff6tYg)
