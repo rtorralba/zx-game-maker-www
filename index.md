@@ -20,7 +20,7 @@ Recomendamos usar [ZX Paintbrush](https://sourcesolutions.itch.io/zx-paintbrush)
 
 ## Documentación en vídeo
 
-Curso por módulos en el canal de [Juanje Juega](https://www.twitch.tv/juanjel):
+Curso por módulos en el canal de [Juanje Juega](https://www.youtube.com/@JuanjeJuega):
 
 * [Instalación e Imágenes](https://www.youtube.com/watch?v=-bX32WbLJHI)
 * [Diseñando el juego 1/2](https://www.youtube.com/watch?v=-MNX9Ff6tYg)
