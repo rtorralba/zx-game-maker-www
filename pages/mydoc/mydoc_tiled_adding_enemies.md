@@ -65,5 +65,3 @@ Se le puede cambiar al enemigo el color simplemente añadiendo una propiedad per
 
 ![](./images/sprites_color.png) -->
 
-{% include links.html %}
-
