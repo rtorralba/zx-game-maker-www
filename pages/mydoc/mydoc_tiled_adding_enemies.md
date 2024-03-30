@@ -53,6 +53,10 @@ Para ello solo tienes que añadir una propiedad personalizada **life** **de tipo
 
 ![](images/vida_enemigo.png)
 
+## Enemigos invencibles
+
+Para añadir enemigos invencibles solo tendras que ponerle en el atributo **life** el valor **99**.
+
 <!-- ## Color
 
 Se le puede cambiar al enemigo el color simplemente añadiendo una propiedad personalizada **color** **de tipo int** donde tienes que poner el color de spectrum (0-7) deseado.
