@@ -46,5 +46,3 @@ Para añadir una fila debajo del spriteset solo tendremos de aumentar el tamaño
 ![](./images/zx-paintbrush-resize-picture-menu.png)
 ![](./images/zx-paintbrush-resize-picture-options.png)
 
-{% include links.html %}
-
