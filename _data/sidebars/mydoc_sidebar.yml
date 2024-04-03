@@ -112,11 +112,14 @@ entries:
   - title: Curso en vídeo
     output: web, pdf
     folderitems:
-      - title: Instalación e Imágenes
+      - title: 1. Instalación e Imágenes
         external_url: https://www.youtube.com/watch?v=-bX32WbLJHI
         output: web, pdf
-      - title: Diseñando el juego 1/2
+      - title: 2. Diseñando el juego 1/2
         external_url: https://www.youtube.com/watch?v=-MNX9Ff6tYg
+        output: web, pdf
+      - title: 3. Diseñando el juego 2/2
+        external_url: https://www.youtube.com/watch?v=j_Tv2cKZ7Ug
         output: web, pdf
 
   - title: Release Notes
