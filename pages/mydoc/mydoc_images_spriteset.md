@@ -26,9 +26,25 @@ El 15 de momento queda libre.
 El último sprite, el 16, se usará para mostrar la explosión del enemigo cuando lo mates.
 
 ### Segunda fila
-Los 16 sprites de la segunda fila se usarán para los enemigos, 2 para cada enemigo, 2 frames de animación, es decir, podrás definir un total de 8 enemigos. Tiene que dibujar solamente los frames del enemigo hacia la derecha, hacia la izquierda ya los genera ZX Game Maker automáticamente.
-
+Los 16 sprites de la segunda fila se usarán para los enemigos, 2 para cada enemigo, 2 frames de animación, es decir, podrás definir un total de 8 enemigos. Tiene que dibujar solamente los frames del enemigo hacia la derecha.
 
 ![](./images/sprites.png)
+
+### Enemigos hacia la izquierda
+El motor si solo tienes 2 filas de sprites **generará los sprites de los enemigos automáticamente hacia la izquierda** debajo de lo que se han definido quedando de la siguiente manera:
+
+![](./images/sprites_izquierda_automated.png)
+
+Si quieres customizar los enemigos hacia la izquierda lo único que tienes que hacer es añadir al PNG una fila más al spriteset, entonces el motor entenderá que prefieres definir tu el espejo de los sprites y no lo hará automáticamente. Por ejemplo en la siguiente imagen de manera manual hemos definido que el primer enemigo hacia la izquierda tiene el mismo sprite, por lo tanto no girará.
+
+![](./images/sprites_izquierda_manual.png)
+
+![](./images/sprites_izquierda_manual.gif)
+
+Para añadir una fila debajo del spriteset solo tendremos de aumentar el tamaño en altura de 32 a 48 diciendole que crezca hacía abajo. Para hacerlo desde ZX Paintbrush iremos al menú View -> Resize picture y en **Select dest. orientation** seleccionaremos la 2ª opción y en **height pondremos 48**
+
+![](./images/zx-paintbrush-resize-picture-menu.png)
+![](./images/zx-paintbrush-resize-picture-options.png)
+
 {% include links.html %}
 
