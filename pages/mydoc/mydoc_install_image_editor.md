@@ -8,8 +8,6 @@ permalink: mydoc_install_image_editor.html
 folder: mydoc
 ---
 
-# ZX Paintbrush
-
 ## Instalación
 
 Necesitas un editor de imágenes para diseñar algunas pantallas de tu juego como la pantalla inicial, carga, principal... Y el conjunto de tiles (los cuadraditos que sirven para diseñar las pantallas) y sprites (Personaje principal, enemigos...).
