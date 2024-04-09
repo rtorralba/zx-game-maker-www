@@ -8,7 +8,7 @@ permalink: mydoc_images_spriteset.html
 folder: mydoc
 ---
 
-Debes crear/editar el fichero assets/sprites.png de 256x32px añadiendo tus sprites (personaje, enemigos...) y donde cada uno de estos tendrá una dimensión de 16x16px.
+Debes crear/editar el fichero assets/sprites.zxp de 256x32px añadiendo tus sprites (personaje, enemigos...) y donde cada uno de estos tendrá una dimensión de 16x16px.
 
 ### Primera fila
 Los primeros 8 sprites están reservados para la animación del protagonista:

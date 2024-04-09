@@ -19,7 +19,7 @@ entries:
   - title: Instalación
     output: web, pdf
     folderitems:
-      - title: Editor de imágenes
+      - title: ZX Paintbrush
         url: /mydoc_install_image_editor.html
         output: web, pdf
 

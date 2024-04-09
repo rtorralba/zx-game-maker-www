@@ -10,9 +10,9 @@ folder: mydoc
 
 ## Tileset
 
-Tienes que crear (o editar) una imagen de 256x48px (assets/tiles.png) que se usará para diseñar tus pantallas.
+Tienes que crear (o editar) una imagen de 256x48px (assets/tiles.zxp) que se usará para diseñar tus pantallas.
 
-ZX Game Maker trabaja con tiles de 8x8px, en consecuencia tienes disponibles 256 tiles para diseñar tus escenarios.
+ZX Spectrum Game Maker trabaja con tiles de 8x8px, en consecuencia tienes disponibles 256 tiles para diseñar tus escenarios.
 
 Para crear tu tileset debes tener en cuenta algunas regla, recuerda que tienes uno de ejemplo para simplemente editarlo.
 
