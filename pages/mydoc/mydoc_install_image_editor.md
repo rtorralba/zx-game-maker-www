@@ -1,5 +1,5 @@
 ---
-title: Instalación. Editor de imágenes
+title: Instalación. ZX Paintbrush
 tags: [getting_started, troubleshooting]
 keywords:
 summary: "Necesitas un editor de imágenes para diseñar algunas pantallas de tu juego como la pantalla inicial, carga, principal... Y el conjunto de tiles (los cuadraditos que sirven para diseñar las pantallas) y sprites (Personaje principal, enemigos...)."
