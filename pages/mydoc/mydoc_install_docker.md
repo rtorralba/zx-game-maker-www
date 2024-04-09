@@ -12,5 +12,3 @@ Para que este game maker funcione correctamente en todos los sistemas operativos
 
 [DOCKER](https://www.docker.com/get-started/)
 
-{% include links.html %}
-

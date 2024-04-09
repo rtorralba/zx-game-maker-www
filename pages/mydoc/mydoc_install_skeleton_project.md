@@ -35,5 +35,3 @@ Los ficheros de la carpeta output los puedes borrar sin problema porque son todo
 Presta atención al resultado de la ejecución para ver si habéis tenido algún error.
 
 ![](images/project_tree.png)
-
-{% include links.html %}

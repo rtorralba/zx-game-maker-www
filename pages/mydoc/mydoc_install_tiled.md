@@ -13,5 +13,3 @@ Este Game Maker usa Tiled para diseñar el mapa de tu juego y posicionar todos l
 Además desde el mismo programa podrás configurar opciones generales de tu juego.
 
 [DOWNLOAD TILED](https://www.mapeditor.org/download.html)
-
-{% include links.html %}
