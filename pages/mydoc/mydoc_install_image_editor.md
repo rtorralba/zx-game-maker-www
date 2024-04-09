@@ -12,11 +12,11 @@ folder: mydoc
 
 Necesitas un editor de imágenes para diseñar algunas pantallas de tu juego como la pantalla inicial, carga, principal... Y el conjunto de tiles (los cuadraditos que sirven para diseñar las pantallas) y sprites (Personaje principal, enemigos...).
 
-Cada una de las imágenes del engine tiene su fichero .zxp (loading.zxp, title.zxp, hud.zxp, ending.zxp) para que lo edites desde ZX Paintbrush y exportes a png cuando tengas que generar el juego.
+Cada una de las imágenes del engine tiene su fichero .zxp (loading.zxp, title.zxp, hud.zxp, ending.zxp) para que lo edites desde ZX Paintbrush cuando tengas que generar el juego.
 
 [ZX PAINTBRUSH](https://sourcesolutions.itch.io/zx-paintbrush)
 
-Si eres usuario de linux lo podrás ejecutar perfectamente con wine.
+Si eres usuario de linux o mac lo podrás ejecutar perfectamente con wine.
 
 ## ¿Porque el ZX Paintbrush?
 
