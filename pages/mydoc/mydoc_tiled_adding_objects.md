@@ -10,6 +10,8 @@ folder: mydoc
 
 Los tiles que representan objetos se tendran que situar los 4 últimos del sprite set (188, 189, 190, 191).
 
+**IMPORTANTE**: De estos 4 objetos (Item, Puerta para llave, Llave y Vida) solo se puede usar uno de ellos por pantalla, por ejemplo, en una pantalla puedes poner una llave, una puerta y un item, pero no 2 llaves o 2 puertas.
+
 ## Item
 
 Este es el objeto que el protagonista deberá ir recogiendo por todo el juego para finalizar el mismo (Es configurable).

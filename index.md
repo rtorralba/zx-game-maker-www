@@ -25,6 +25,7 @@ Curso por módulos en el canal de [Juanje Juega](https://www.youtube.com/@Juanje
 * [1. Instalación e Imágenes](https://www.youtube.com/watch?v=-bX32WbLJHI)
 * [2. Diseñando el juego 1/2](https://www.youtube.com/watch?v=-MNX9Ff6tYg)
 * [3. Diseñando el juego 2/2](https://www.youtube.com/watch?v=j_Tv2cKZ7Ug)
+* [4. FX y Música](https://www.youtube.com/watch?v=yMbJWd3NoPA&t=8s)
 
 Podéis ver una presentación WIP en el siguiente vídeo:
 
