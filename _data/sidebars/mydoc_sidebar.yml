@@ -121,6 +121,9 @@ entries:
       - title: 3. Diseñando el juego 2/2
         external_url: https://www.youtube.com/watch?v=j_Tv2cKZ7Ug
         output: web, pdf
+      - title: 4. FX y Música
+        external_url: https://www.youtube.com/watch?v=yMbJWd3NoPA
+        output: web, pdf
 
   - title: Release Notes
     output: web, pdf
