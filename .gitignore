@@ -6,3 +6,5 @@ _pdf
 .idea
 vendor/
 .bundle/
+html-to-pdf/node_modules
+html-to-pdf/output/0*.pdf
