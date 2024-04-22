@@ -21,5 +21,4 @@ folder: mydoc
 * **Personaje principal incrustado**. El personaje no respetaba la distancia mínima para aparecer en la siguiente "habitación"
 * **Repintado erroneo de tiles**. Se repintaban tiles de la anterior pantalla en los que estaba algún sprite
 
-{% include links.html %}
 

@@ -34,5 +34,4 @@ folder: mydoc
 
 Y a todo el grupo de ZX Basic de Boriel de Telegram
 
-{% include links.html %}
 

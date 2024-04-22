@@ -12,5 +12,4 @@ Para poder distinguir bien los tiles y la división entre pantallas ve al menú 
 
 ![](images/tiled_preferences.png)
 
-{% include links.html %}
 

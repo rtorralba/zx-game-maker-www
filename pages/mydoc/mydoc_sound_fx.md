@@ -40,5 +40,4 @@ Si esto lo ves complicado y quieres dejarlo para más adelante, ya tienes unos s
 
 **Si decides usar estos sonidos predeterminados, es muy importante que en tu juego pongas la atribución al autor que es [shiru8bit](http://shiru.untergrund.net)**
 
-{% include links.html %}
 

@@ -87,5 +87,4 @@ A veces es interesante setear un tile con las dos propiedades anteriores, que ha
 
 ![](images/lava_animada.gif)
 
-{% include links.html %}
 

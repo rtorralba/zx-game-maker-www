@@ -20,5 +20,4 @@ Es importante seleccionar **Object Aligment** **Top Left** en las propiedades de
 ![](images/tilesets.png)
 ![](images/tileset_sprites.png)
 
-{% include links.html %}
 

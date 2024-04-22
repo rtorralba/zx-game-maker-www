@@ -40,5 +40,4 @@ Ya finalmente hay que crear una propiedad en nuestro mapa de tipo bool para acti
 
 ![](images/tiled_music_enabled.png)
 
-{% include links.html %}
 

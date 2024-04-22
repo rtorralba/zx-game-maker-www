@@ -24,5 +24,4 @@ Después ve al menu Map > Properties y marca el mapa como **infinito** y Output 
 
 ![](images/map_properties.png)
 
-{% include links.html %}
 

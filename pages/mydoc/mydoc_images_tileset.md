@@ -23,5 +23,4 @@ Para crear tu tileset debes tener en cuenta algunas regla, recuerda que tienes u
 
 ![](./images/tiles.png)
 
-{% include links.html %}
 

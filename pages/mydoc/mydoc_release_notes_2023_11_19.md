@@ -27,5 +27,4 @@ folder: mydoc
 * **Autocorreción de screens**. Si el usuario usa colores no permitidos en ZX Spectrum, la autocorrección lo reemplazará con el color se spectrum más parecido.
 * **Autocorreción de posición de elementos**. Si el usuario coloca algún objeto (enemigo, punto...) en una posición intermedia (40.5), este se aproximará al punto correcto más cercano.
 
-{% include links.html %}
 

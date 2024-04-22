@@ -16,5 +16,4 @@ folder: mydoc
 * **Optimización de detección de colisiones en personaje principal, enemigos y bala**
 * **Limpieza de código**
 
-{% include links.html %}
 

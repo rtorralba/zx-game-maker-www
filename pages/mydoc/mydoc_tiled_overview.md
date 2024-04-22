@@ -14,5 +14,4 @@ Nuestro juego, aunque es configurable, por defecto tendrá un tamaño de 32x22 t
 
 **El ZX Spectrum Game Maker viene con un mapa de ejemplo y te recomendamos que uses ese editándolo**
 
-{% include links.html %}
 

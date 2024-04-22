@@ -41,4 +41,3 @@ Si tienes dudas y quieres participar con otros desarrolladores que están usando
 
 Grupo de Telegram: [https://t.me/zx_spectrum_game_maker](https://t.me/zx_spectrum_game_maker)
 
-{% include links.html %}

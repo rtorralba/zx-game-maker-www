@@ -20,5 +20,4 @@ De momento solo se permiten plataformas de movimiento horizontal.
 
 ![](images/tiled_add_platform.png)
 
-{% include links.html %}
 

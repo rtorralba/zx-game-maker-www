@@ -44,5 +44,4 @@ Necesitamos 2 capas, una para pintar nuestro escenario y otra para situar los el
 
 ![](./images/layers.png)
 
-{% include links.html %}
 

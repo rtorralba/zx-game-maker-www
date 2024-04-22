@@ -99,5 +99,4 @@ Propiedades personalizadas:
 
 ![](images/general_settings.png)
 
-{% include links.html %}
 

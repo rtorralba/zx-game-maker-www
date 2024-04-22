@@ -17,5 +17,4 @@ folder: mydoc
 ## Errores corregidos
 * Error al seleccionar **Kempston** en la pantalla de inicio.
 
-{% include links.html %}
 

@@ -51,5 +51,4 @@ Tiene el mismo tamaño que las anteriores pero solo necestas diseñar la parte d
 
 ![](images/hud.png)
 
-{% include links.html %}
 

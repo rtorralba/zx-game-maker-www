@@ -22,5 +22,4 @@ folder: mydoc
 
 ![](images/mejora_carga_pantalla.png)
 
-{% include links.html %}
 
