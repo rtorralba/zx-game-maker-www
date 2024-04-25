@@ -51,7 +51,7 @@ Para utilizar esta puerta debes habilitar la opción **shouldKillEnemies**. El t
 
 ## Vida
 
-Este objeto permitirá al personaje restablecer una cantidad de visa (configurable).
+Este objeto permitirá al personaje restablecer una cantidad de vida (configurable).
 
 Para setear un tile de este tipo haz clic en la rueda dentada de propiedades del tileset, selecciona el tile que desees y escribe **life** en la casilla type.
 
@@ -65,7 +65,7 @@ Este tipo de tile dañará al personaje principal cuando lo toque y este saldrá
 
 Para setear un tile de este tipo haz clic en la rueda dentada de propiedades del tileset, selecciona el tile que desees y escribe **damage** en la casilla type.
 
-**Importante** solo puedes marcar tiles de daño **tiles sólidos**, es decir, que estén el las 2 primeras filas del tileset.
+**Importante** solo puedes marcar tiles de daño **tiles no sólidos**, es decir, después de las plataformas traspasables, a partir del tile 78.
 
 ## Tiles animados
 
@@ -81,7 +81,9 @@ Para setear un tile de este tipo haz clic en la rueda dentada de propiedades del
 
 ## Tiles de daño animados
 
-A veces es interesante setear un tile con las dos propiedades anteriores, que hagan daño y que sean animados, por ejemplo una lava que tiene que dañar al protagonista y se tiene que mover. En este caso la el tipo o class (en las nievas versiones le han llamado class) ha de ser **animated-damage**
+A veces es interesante setear un tile con las dos propiedades anteriores, que hagan daño y que sean animados, por ejemplo una lava que tiene que dañar al protagonista y se tiene que mover. En este caso la el tipo o class (en las nievas versiones le han llamado class) ha de ser **animated-damage**.
+
+Como pasaba con los tiles de daño, solo puedes marcar tiles de "daño animados" **tiles no sólidos**, es decir, después de las plataformas traspasables, a partir del tile 78.
 
 ![](images/tile_animated_damage.png)
 
