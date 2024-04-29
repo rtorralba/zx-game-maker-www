@@ -16,7 +16,7 @@ Propiedades personalizadas:
 * **VTPLAYER_MUTE** (string). Posición de memoria de mute para la música vortex (Se verá en el capítulo de música en el juego)
 * **VTPLAYER_NEXTNOTE** (string). Posición de memoria para reproducir la próxima nota para la música vortex (Se verá en el capítulo de música en el juego)
 * **animatePeriodEnemy** (int). Número más alto, animación de los enemigos más lenta.
-* **animatePeriodMain** (int). Número más alto, animación del presonaje principal más lenta.
+* **animatePeriodMain** (int). Número más alto, animación del personaje principal más lenta.
 * **animatePeriodTile** (int). Número más alto, animación de los tiles más lenta.
 * **bulletDistance** (int). Distancia que queramos que recorra la bala. Si seteamos una distancia corta como de 2, da el efecto de que el personaje ataca con el arma a corta distancia como una espada.
 * **damageAmount** (int). Cuánto daño le hacen al personaje los enemigos.
