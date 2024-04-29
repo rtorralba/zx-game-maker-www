@@ -32,7 +32,7 @@ Propiedades personalizadas:
 * **backgroundAttribute** (int). Color de fondo del juego en decimal en forma de atributos de spectrum. Por ejemplo para color de fondo negro con sprites en blanco seria 7 (00000111). Para color de fondo azul con sprites en blanco seria 15 (00001111). Si no se define este atributo se pintara fondo negro sprites blancos. Podéis usar la calculadora siguiente para saber que valor tenéis que poner.
 
 <div style="margin: auto; width: 50%">
-    <h4>Generador de Atributos ZX Spectrum</h4>
+    <p>Generador de Atributos ZX Spectrum</p>
     <form id="attributeForm">
         <label for="inkColor">Color de Tinta:</label>
         <!-- Añadir color en cada opcion del select -->
