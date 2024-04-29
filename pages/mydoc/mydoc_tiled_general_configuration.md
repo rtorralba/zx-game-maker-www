@@ -15,9 +15,13 @@ Propiedades personalizadas:
 * **VTPLAYER_INIT** (string). Posición de memoria inicial para la música vortex (Se verá en el capítulo de música en el juego)
 * **VTPLAYER_MUTE** (string). Posición de memoria de mute para la música vortex (Se verá en el capítulo de música en el juego)
 * **VTPLAYER_NEXTNOTE** (string). Posición de memoria para reproducir la próxima nota para la música vortex (Se verá en el capítulo de música en el juego)
+* **animatePeriodEnemy** (int). Número más alto, animación de los enemigos más lenta.
+* **animatePeriodMain** (int). Número más alto, animación del presonaje principal más lenta.
+* **animatePeriodTile** (int). Número más alto, animación de los tiles más lenta.
 * **bulletDistance** (int). Distancia que queramos que recorra la bala. Si seteamos una distancia corta como de 2, da el efecto de que el personaje ataca con el arma a corta distancia como una espada.
-* **gameName** (string). Nombre del juego. Aparecerá en el título loading cuando carga y el tap se generará con este nombre. 10 carácteres como máximo sin carácteres especiales (acentos, ñ...)
 * **damageAmount** (int). Cuánto daño le hacen al personaje los enemigos.
+* **enemiesRespawn** (bool). Si los enemigos (no invencibles) vuelven a aparecer des pués de matarlos al volver a entrar en la habitación.
+* **gameName** (string). Nombre del juego. Aparecerá en el título loading cuando carga y el tap se generará con este nombre. 10 carácteres como máximo sin carácteres especiales (acentos, ñ...)
 * **goalItems** (int). Número de items necesarios para finalizar el juego.
 * **initialLife** (int). Cantidad de vida inicial del personaje.
 * **lifeAmount** (int). Cantidad de vida que incrementa al personaje los items **life**.
