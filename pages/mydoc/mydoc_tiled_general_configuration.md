@@ -26,7 +26,7 @@ Propiedades personalizadas:
 * **initialLife** (int). Cantidad de vida inicial del personaje.
 * **lifeAmount** (int). Cantidad de vida que incrementa al personaje los items **life**.
 * **maxEnemiesPerScreen** (int). Se puede configurar la cantidad de enemigos que aparecen en pantalla (hasta 5). Evitar poner más de los que se usan para optimizar espacio.
-* **musicEnabled** (bool). Para habilitar o deshabilitar la música AY. No es necesario que la deshabilites para generar el juego en 48k, el mismo juego con música funciona tanto en 48k como en 128k , simplemente en el 48k no suena la música.
+* **musicEnabled** (bool). Para habilitar o deshabilitar la música AY. Si se habilita la música el juego resultante sólo funcionará en 128K, para hacer una versión 48K tendrás que desmarcar guardar y volver a compilar.
 * **shooting** (bool). Con esto habilitamos o deshabilitamos el disparo del personaje.
 * **shouldKillEnemies** (bool). Con esta propiedad activa, si una habitación tiene enemigos, no podremos salir de ella hasta que los matemos a todos.
 * **backgroundAttribute** (int). Color de fondo del juego en decimal en forma de atributos de spectrum. Por ejemplo para color de fondo negro con sprites en blanco seria 7 (00000111). Para color de fondo azul con sprites en blanco seria 15 (00001111). Si no se define este atributo se pintara fondo negro sprites blancos. Podéis usar la calculadora siguiente para saber que valor tenéis que poner.
