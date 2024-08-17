@@ -20,6 +20,8 @@ Recomendamos usar [ZX Paintbrush](https://sourcesolutions.itch.io/zx-paintbrush)
 
 ## Documentación en vídeo
 
+IMPORTANTE: Los vídeos son una buena guía para entender como funciona el motor, pero como el mismo está en costante desarrollo hay cosas que pueden haber cambiado, por lo que para tener una documentación más exacta es mejor consultar esta que estás leyendo.
+
 Curso por módulos en el canal de [Juanje Juega](https://www.youtube.com/@JuanjeJuega):
 
 * [1. Instalación e Imágenes](https://www.youtube.com/watch?v=-bX32WbLJHI)
