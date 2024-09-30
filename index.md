@@ -43,3 +43,9 @@ Si tienes dudas y quieres participar con otros desarrolladores que están usando
 
 Grupo de Telegram: [https://t.me/zx_spectrum_game_maker](https://t.me/zx_spectrum_game_maker)
 
+## Old
+
+Versión de la documentación de la versión usada en el concurso ZX Spectrum Game Maker Dev en PDF
+
+[https://gm.retrojuegos.org/images/ZX-Spectrum-Game-Maker-zxsgm-dev-24.pdf]
+
