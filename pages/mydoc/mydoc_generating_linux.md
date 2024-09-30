@@ -16,12 +16,14 @@ En la consola de comandos dentro de la carpeta de tu juego. El juego se generar�
 ./make-game.sh
 ```
 
-Si se quiere actualizar el motos solo tendremos que añadir la opción --update
+Si se quiere actualizar el motor solo tendremos que añadir la opción --update
 
 ```bash
 ./make-game.sh --update
 ```
 
 Al generar el juego también se generará en la carpeta **dist** una imágen con una representación gráfica de la memoria que ocupa tu proyecto para poder saber que ocupa cada elemento.
+
+Nota: En la versión MacOS asegurate de tener el docker ejecutandose.
 
 ![](images/memory.png)

@@ -20,5 +20,7 @@ Para actualizar el motor solo habrá que hacer docle clic en el fichero update.b
 
 Al generar el juego también se generará en la carpeta **dist** una imágen con una representación gráfica de la memoria que ocupa tu proyecto para poder saber que ocupa cada elemento.
 
+Nota: Asegurate de tener el docker ejecutándose antes de ejecutar el archivo make-game-win.bat.
+
 ![](images/memory.png)
 
