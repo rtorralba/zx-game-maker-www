@@ -15,7 +15,7 @@ Propiedades personalizadas:
 * **VTPLAYER_INIT**. Posición de memoria inicial para la música vortex (Se verá en el capítulo de música en el juego)
 * **VTPLAYER_MUTE**. Posición de memoria de mute para la música vortex (Se verá en el capítulo de música en el juego)
 * **VTPLAYER_NEXTNOTE**. Posición de memoria para reproducir la próxima nota para la música vortex (Se verá en el capítulo de música en el juego)
-* **ammo** (). Cantidad de munición con la que empezará el personaje principal. Si seteas -1 el personaje tendrá munición infinita.
+* **ammo**. Cantidad de munición con la que empezará el personaje principal. Si seteas -1 el personaje tendrá munición infinita.
 * **ammoIncrement**. Cantidad de munición que se recarga cada vez que el protagonista recoja un item de recarga de munición.
 * **animatePeriodEnemy**. Número más alto, animación de los enemigos más lenta.
 * **animatePeriodMain**. Número más alto, animación del personaje principal más lenta.
