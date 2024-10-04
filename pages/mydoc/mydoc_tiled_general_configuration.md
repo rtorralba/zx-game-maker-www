@@ -10,6 +10,8 @@ folder: mydoc
 
 Puedes añadir configuraciones generales de tu juego en las propiedades personalizadas el mapa.
 
+Para mostrar estás configuraciones tienes que ir al menú Mapa -> Atributos del mapa.
+
 Propiedades personalizadas:
 
 * **VTPLAYER_INIT**. Posición de memoria inicial para la música vortex (Se verá en el capítulo de música en el juego)
