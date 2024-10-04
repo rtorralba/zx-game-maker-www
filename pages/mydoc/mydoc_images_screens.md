@@ -12,7 +12,7 @@ Para crear tus juegos para ZX Spectrum necesitas crear/editar algunas imágenes.
 
 **Pantallas** como la principal, de carga, HUD...
 
-Tienes que crear 4 pantallas en PNG en la carpeta assets/screens loading.scr, title.scr, ending.scr y hud.scr
+Tienes que crear 4 pantallas en SCR en la carpeta assets/screens loading.scr, title.scr, ending.scr y hud.scr
 
 Recomiendo usar programas especializados como [ZX Paintbrush](https://sourcesolutions.itch.io/zx-paintbrush).
 
