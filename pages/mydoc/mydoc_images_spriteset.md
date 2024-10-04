@@ -10,7 +10,10 @@ folder: mydoc
 
 Debes crear/editar el fichero assets/sprites.zxp de 256x32px añadiendo tus sprites (personaje, enemigos...) y donde cada uno de estos tendrá una dimensión de 16x16px.
 
-### Primera fila
+## Primera fila
+
+### Vista lateral (Plataformas)
+
 Los primeros 8 sprites están reservados para la animación del protagonista:
 * Los 2 primeros para el movimiento hacia la derecha
 * El 3ª 1er frame de subir/bajar escaleras. 
@@ -25,12 +28,29 @@ El 15 de momento queda libre.
 
 El último sprite, el 16, se usará para mostrar la explosión del enemigo cuando lo mates.
 
-### Segunda fila
+### Vista cenital
+
+Los primeros 8 sprites están reservados para la animación del protagonista:
+* 1 y 2 movimiento hacia la derecha.
+* 3 y 4 movimiento hacia la izquierda.
+* 5 y 6 movimiento hacia arriba.
+* 7 y 8 movimiento hacia abajo.
+* 9 - 15 libres
+
+El último sprite, el 16, se usará para mostrar la explosión del enemigo cuando lo mates.
+
+## Segunda fila
 Los 16 sprites de la segunda fila se usarán para los enemigos, 2 para cada enemigo, 2 frames de animación, es decir, podrás definir un total de 8 enemigos. Tiene que dibujar solamente los frames del enemigo hacia la derecha.
+
+## Ejemplo lateral (Plataformas)
 
 ![](./images/sprites.png)
 
-### Enemigos hacia la izquierda
+## Ejemplo cenital
+
+![](./images/sprites_cenital.png)
+
+## Enemigos hacia la izquierda
 El motor si solo tienes 2 filas de sprites **generará los sprites de los enemigos automáticamente hacia la izquierda** debajo de lo que se han definido quedando de la siguiente manera:
 
 ![](./images/sprites_izquierda_automated.png)

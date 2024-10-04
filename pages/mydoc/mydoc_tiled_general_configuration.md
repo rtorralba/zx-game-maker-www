@@ -12,24 +12,34 @@ Puedes añadir configuraciones generales de tu juego en las propiedades personal
 
 Propiedades personalizadas:
 
-* **VTPLAYER_INIT** (string). Posición de memoria inicial para la música vortex (Se verá en el capítulo de música en el juego)
-* **VTPLAYER_MUTE** (string). Posición de memoria de mute para la música vortex (Se verá en el capítulo de música en el juego)
-* **VTPLAYER_NEXTNOTE** (string). Posición de memoria para reproducir la próxima nota para la música vortex (Se verá en el capítulo de música en el juego)
-* **animatePeriodEnemy** (int). Número más alto, animación de los enemigos más lenta.
-* **animatePeriodMain** (int). Número más alto, animación del personaje principal más lenta.
-* **animatePeriodTile** (int). Número más alto, animación de los tiles más lenta.
-* **bulletDistance** (int). Distancia que queramos que recorra la bala. Si seteamos una distancia corta como de 2, da el efecto de que el personaje ataca con el arma a corta distancia como una espada.
-* **damageAmount** (int). Cuánto daño le hacen al personaje los enemigos.
-* **enemiesRespawn** (bool). Si los enemigos (no invencibles) vuelven a aparecer des pués de matarlos al volver a entrar en la habitación.
-* **gameName** (string). Nombre del juego. Aparecerá en el título loading cuando carga y el tap se generará con este nombre. 10 carácteres como máximo sin carácteres especiales (acentos, ñ...)
-* **goalItems** (int). Número de items necesarios para finalizar el juego.
-* **initialLife** (int). Cantidad de vida inicial del personaje.
-* **lifeAmount** (int). Cantidad de vida que incrementa al personaje los items **life**.
-* **maxEnemiesPerScreen** (int). Se puede configurar la cantidad de enemigos que aparecen en pantalla (hasta 5). Evitar poner más de los que se usan para optimizar espacio.
-* **musicEnabled** (bool). Para habilitar o deshabilitar la música AY. Si se habilita la música el juego resultante sólo funcionará en 128K, para hacer una versión 48K tendrás que desmarcar guardar y volver a compilar.
-* **shooting** (bool). Con esto habilitamos o deshabilitamos el disparo del personaje.
-* **shouldKillEnemies** (bool). Con esta propiedad activa, si una habitación tiene enemigos, no podremos salir de ella hasta que los matemos a todos.
-* **backgroundAttribute** (int). Color de fondo del juego en decimal en forma de atributos de spectrum. Por ejemplo para color de fondo negro con sprites en blanco seria 7 (00000111). Para color de fondo azul con sprites en blanco seria 15 (00001111). Si no se define este atributo se pintara fondo negro sprites blancos. Podéis usar la calculadora siguiente para saber que valor tenéis que poner.
+* **VTPLAYER_INIT**. Posición de memoria inicial para la música vortex (Se verá en el capítulo de música en el juego)
+* **VTPLAYER_MUTE**. Posición de memoria de mute para la música vortex (Se verá en el capítulo de música en el juego)
+* **VTPLAYER_NEXTNOTE**. Posición de memoria para reproducir la próxima nota para la música vortex (Se verá en el capítulo de música en el juego)
+* **ammo** (). Cantidad de munición con la que empezará el personaje principal. Si seteas -1 el personaje tendrá munición infinita.
+* **ammoIncrement**. Cantidad de munición que se recarga cada vez que el protagonista recoja un item de recarga de munición.
+* **animatePeriodEnemy**. Número más alto, animación de los enemigos más lenta.
+* **animatePeriodMain**. Número más alto, animación del personaje principal más lenta.
+* **animatePeriodTile**. Número más alto, animación de los tiles más lenta.
+* **border**. Color del borde in game. Muy útil cuando se cambia el color de fondo del juego y del hud.
+* **bulletDistance**. Distancia que queramos que recorra la bala. El valor 0 se traduce como distancia infinita, la bala no parará hasta que choque con algún obstáculo. Si seteamos una distancia corta como de 2, da el efecto de que el personaje ataca con el arma a corta distancia como una espada.
+* **damageAmount**. Cuánto daño le hacen al personaje los enemigos.
+* **enemiesRespawn**. Si los enemigos (no invencibles) vuelven a aparecer des pués de matarlos al volver a entrar en la habitación.
+* **gameName**. Nombre del juego. Aparecerá en el título loading cuando carga y el tap se generará con este nombre. 10 carácteres como máximo sin carácteres especiales (acentos, ñ...)
+* **gameView**. Tipo de juego a desarrollar, side es un juego de plataformas lateral, y overhead, un juego de vista cenital.
+* **goalItems**. Número de items necesarios para finalizar el juego.
+* **hiScore**. Habilita la puntuación in game y el guardado de la misma para que aparezca en la pantalla de menú.
+* **initialLife**. Cantidad de vida inicial del personaje.
+* **ink**. Color de la tinta in game. Muy útil cuando se cambia el color de fondo del juego y del hud.
+* **killJumpingOnTop**. Habilita el poder de matar a los enemigos saltando encima. (Solo juego plataformas)
+* **lifeAmount**. Cantidad de vida que incrementa al personaje los items **life**.
+* **maxEnemiesPerScreen**. Se puede configurar la cantidad de enemigos que aparecen en pantalla (hasta 5). Evitar poner más de los que se usan para optimizar espacio.
+* **musicEnabled**. Para habilitar o deshabilitar la música AY. Si se habilita la música el juego resultante sólo funcionará en 128K, para hacer una versión 48K tendrás que desmarcar guardar y volver a compilar.
+* **paper**. Color del papel in game. Muy útil cuando se cambia el color de fondo del juego y del hud.
+* **password**. Password que se pedirá al iniciar el juego para poder jugar. Útil para juegos con más de una carga con sistema de passwords.
+* **shooting**. Con esto habilitamos o deshabilitamos el disparo del personaje.
+* **shouldKillEnemies**. Con esta propiedad activa, si una habitación tiene enemigos, no podremos salir de ella hasta que los matemos a todos.
+* **waitPressKeyAfterLoad**. Si habilitas esta opción, tras la carga el juego esperará que pulses una tecla para mostrar el menú.
+* **backgroundAttribute**. Color de fondo del juego en decimal en forma de atributos de spectrum. Por ejemplo para color de fondo negro con sprites en blanco seria 7 (00000111). Para color de fondo azul con sprites en blanco seria 15 (00001111). Si no se define este atributo se pintara fondo negro sprites blancos. Podéis usar la calculadora siguiente para saber que valor tenéis que poner.
 
 <div style="margin: auto; width: 50%">
     <p>Generador de Atributos ZX Spectrum</p>

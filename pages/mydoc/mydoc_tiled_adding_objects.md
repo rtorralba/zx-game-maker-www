@@ -18,7 +18,7 @@ Este es el objeto que el protagonista deberá ir recogiendo por todo el juego pa
 
 Tienes que seleccionar el tile que quieras usar para este fin, por ejemplo en el juego de Krilin la daga, y poner que el tipo de el mismo es **item**.
 
-Para ello haz clic en la rueda dentada de propiedades del tileset, selecciona el tile que desees (la daga por ejemplo) y escribe **item** en la casilla type.
+Para ello haz clic en la rueda dentada de propiedades del tileset, selecciona el tile que desees (la daga por ejemplo) y escribe **item** en la casilla Class.
 
 ![](images/type_item.png)
 
@@ -26,7 +26,7 @@ Para ello haz clic en la rueda dentada de propiedades del tileset, selecciona el
 
 Este tile será considerado solido para el protagonista. deberás tener al menos una **key** para abrir la puerta y cuando lo hagas se te restará de tu inventario.
 
-Para setear un tile de este tipo haz clic en la rueda dentada de propiedades del tileset, selecciona el tile que desees y escribe **door** en la casilla type.
+Para setear un tile de este tipo haz clic en la rueda dentada de propiedades del tileset, selecciona el tile que desees y escribe **door** en la casilla Class.
 
 Después ya puedes añadirlo a tu mapa arrastrándolo.
 
@@ -36,16 +36,25 @@ Después ya puedes añadirlo a tu mapa arrastrándolo.
 
 Como habrás podido ver en el párrafo anterior, necesitas el objeto **key** para abrir las puertas.
 
-Para setear un tile de este tipo haz clic en la rueda dentada de propiedades del tileset, selecciona el tile que desees y escribe **key** en la casilla type.
+Para setear un tile de este tipo haz clic en la rueda dentada de propiedades del tileset, selecciona el tile que desees y escribe **key** en la casilla Class.
 
 Después ya puedes añadirlo a tu mapa arrastrándolo.
 
 ![](images/type_key.png)
 
+## Munición
+
+Este objeto permitirá al personaje restablecer la cantidad de munición que hayas especificado en el valor de la configuración **ammoIncrement** solo si has especificado un valor de munición inicial (**ammo**) no infinita (-1).
+
+![](images/type_ammo.png)
+
 ## Puerta que necesita que mates a todos los enemigos
 
 Para utilizar esta puerta debes habilitar la opción **shouldKillEnemies**. El tile nº 64 (el último de la segunda fila), esta designado para añadir este tipo de puerta, solo añadirlo a tu mapa arrastrándolo. Deberás matar a todos los enemigos para abrir la puerta.
 
+Para setear un tile de este tipo haz clic en la rueda dentada de propiedades del tileset, selecciona el tile que desees y escribe **ammo** en la casilla Class.
+
+Después ya puedes añadirlo a tu mapa arrastrándolo.
 
 ![](images/type_enemy_door.png)
 
@@ -53,7 +62,7 @@ Para utilizar esta puerta debes habilitar la opción **shouldKillEnemies**. El t
 
 Este objeto permitirá al personaje restablecer una cantidad de vida (configurable).
 
-Para setear un tile de este tipo haz clic en la rueda dentada de propiedades del tileset, selecciona el tile que desees y escribe **life** en la casilla type.
+Para setear un tile de este tipo haz clic en la rueda dentada de propiedades del tileset, selecciona el tile que desees y escribe **life** en la casilla Class.
 
 Después ya puedes añadirlo a tu mapa arrastrándolo.
 
@@ -63,7 +72,7 @@ Después ya puedes añadirlo a tu mapa arrastrándolo.
 
 Este tipo de tile dañará al personaje principal cuando lo toque y este saldrá rebotado.
 
-Para setear un tile de este tipo haz clic en la rueda dentada de propiedades del tileset, selecciona el tile que desees y escribe **damage** en la casilla type.
+Para setear un tile de este tipo haz clic en la rueda dentada de propiedades del tileset, selecciona el tile que desees y escribe **damage** en la casilla Class.
 
 **Importante** solo puedes marcar tiles de daño **tiles no sólidos**, es decir, después de las plataformas traspasables, a partir del tile 78.
 
@@ -73,7 +82,7 @@ En ocasiones le da un aspecto más agradable que los escenarios tengan ciertos t
 
 Para ello deberás tener preparado tu tileset con el tile que tengas pensado animar y justamente el siguiente tile sea el frame al que se intercambiará para simular el movimiento.
 
-Para setear un tile de este tipo haz clic en la rueda dentada de propiedades del tileset, selecciona el tile que desees y escribe **animated** en la casilla type.
+Para setear un tile de este tipo haz clic en la rueda dentada de propiedades del tileset, selecciona el tile que desees y escribe **animated** en la casilla Class.
 
 ![](images/tileset_con_tiles_animados.png)
 

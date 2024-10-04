@@ -10,23 +10,23 @@ folder: mydoc
 
 Para crear tus juegos para ZX Spectrum necesitas crear/editar algunas imágenes.
 
-**Pantallas** como la principal, de carga, HUD... y el **Tileset** o conjunto de tiles que usarás para diseñar tu mapa y el **Spriteset** o conjunto de sprites como el personaje principal, enemigos...
+**Pantallas** como la principal, de carga, HUD...
 
-Tienes que crear 4 pantallas en PNG en la carpeta assets/screens loading.png, title.png, ending.png y hud.png
+Tienes que crear 4 pantallas en PNG en la carpeta assets/screens loading.scr, title.scr, ending.scr y hud.scr
 
-Para el diseño de las mismas sólo podéis utilizar la paleta de colores del ZX Spectrum, si usáis programas especializados como [ZX Paintbrush](https://sourcesolutions.itch.io/zx-paintbrush) ya lo tienen en cuenta.
+Recomiendo usar programas especializados como [ZX Paintbrush](https://sourcesolutions.itch.io/zx-paintbrush).
 
 Tenéis ejemplos en la misma carpeta para simplemente modificar las pantallas existentes y ver que requisitos tienen (tamaño...)
 
 ## Carga
 
-Esta imagen (assets/screens/loading.png) será usada en la pantalla de carga. Es la que se muestra mientras tu juego está cargando.
+Esta imagen (assets/screens/loading.scr) será usada en la pantalla de carga. Es la que se muestra mientras tu juego está cargando.
 
 ![](images/loading.png)
 
 ## Pantalla principal
 
-Esta imagen (assets/screens/title.png) es la que se muestra nada más cargar el juego y que debe contener las opciones que puede seleccionar el usuario.
+Esta imagen (assets/screens/title.scr) es la que se muestra nada más cargar el juego y que debe contener las opciones que puede seleccionar el usuario.
 
 1. Teclado
 2. Kempston
@@ -38,14 +38,14 @@ Nos ayudaría bastante que en la pantalla de inicio añadieras nuestro logo. Pue
 
 ## Ending
 
-Esta imagen (assets/screens/ending.png) se mostrará cuando el usuario se pase el juego.
+Esta imagen (assets/screens/ending.scr) se mostrará cuando el usuario se pase el juego.
 
 ![](images/ending.png)
 
 ## HUD
 
 
-Esta imagen (assets/screens/hud.png) se mostrará debajo de tu juego para indicarle al usuario cuanta vida le queda y cuantas llaves e items ha recolectado.
+Esta imagen (assets/screens/hud.scr) se mostrará debajo de tu juego para indicarle al usuario cuanta vida le queda y cuantas llaves e items ha recolectado.
 
 Tiene el mismo tamaño que las anteriores pero solo necestas diseñar la parte de abajo.
 

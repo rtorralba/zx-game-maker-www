@@ -16,7 +16,7 @@ Al descargar el skeleton/proyecto, descomprimirlo y cambiar el nombre de la carp
 
 Todo lo que influye a la hora de generar tu juego se encuentra en la carpeta **assets**, con lo que os recomiendo que vayáis haciendo copia de esa carpeta por el método que prefiáis (Copia manual, control de versiones...).
 
-La manera de trabajar es simplemente modificar los elementos dentro de la carpeta assets, maps.tmx, tileset.png... Y después ejecutar el script de generación del juego correspondiente de tu sistema operativo que se encuentra en la carpeta raiz.
+La manera de trabajar es simplemente modificar los elementos dentro de la carpeta assets, maps.tiled-project, tiles.zxp... Y después ejecutar el script de generación del juego correspondiente de tu sistema operativo que se encuentra en la carpeta raiz.
 
 **Windows**
 
@@ -31,6 +31,11 @@ Ejecutar script en la consola
 ```
 
 Después de ejecutarlo, si todo ha ido bien, **el juego estará en dist/game.tap**
+
+Además para ayudarte en revisar cuanta memoria estás utilizando en tu juego y cuanta tienes todavía libre, dentro de la carpeta dist tendrás una imagen con una gráfica del uso de memoria.
+
+* En el caso de los juegos en 48k la imagen es memory-bank-0.png
+* En el caso de los juegos de 128k se añadiran a la imagen anterior las gráficas de los otros bancos de memoria en uso como por ejemplo el memory-bank-3.png 
 
 Los ficheros de la carpeta output los puedes borrar sin problema porque son todos generados.
 
