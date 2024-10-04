@@ -14,7 +14,7 @@ Nuestro juego, aunque es configurable, por defecto tendrá un tamaño de 32x22 t
 
 **El ZX Spectrum Game Maker viene con un mapa de ejemplo y te recomendamos que uses ese editándolo**
 
-Para abrir el mapa debes abrir el fichero maps.tiled-project que está dentro de la carpeta assets/map.
+Para abrir el mapa debes abrir el fichero **maps.tiled-project** que está dentro de la carpeta assets/map.
 
 **Importante.** La primera vez que lo abras posiblemente no veas el mapa, ve al menu **Ver -> Vistas y barras de herramientas y activa la opción Project y a la izquierda se abrirá la barra del proyecto y verás el mapa, sólo tienes que hacer clic en el para abrirlo.
 
