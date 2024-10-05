@@ -128,7 +128,9 @@ entries:
   - title: Release Notes
     output: web, pdf
     folderitems:
-
+    - title: 2024-10-05
+      url: /mydoc_release_notes_2024_10_05.html
+      output: web, pdf
     - title: 2024-04-29
       url: /mydoc_release_notes_2024_04_29.html
       output: web, pdf
