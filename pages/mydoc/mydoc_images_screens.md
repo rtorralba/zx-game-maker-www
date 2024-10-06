@@ -18,13 +18,15 @@ Recomiendo usar programas especializados como [ZX Paintbrush](https://sourcesolu
 
 Tenéis ejemplos en la misma carpeta para simplemente modificar las pantallas existentes y ver que requisitos tienen (tamaño...)
 
-## Carga
+## Pantallas obligatorias
+
+### Carga
 
 Esta imagen (assets/screens/loading.scr) será usada en la pantalla de carga. Es la que se muestra mientras tu juego está cargando.
 
 ![](images/loading.png)
 
-## Pantalla principal
+### Pantalla principal
 
 Esta imagen (assets/screens/title.scr) es la que se muestra nada más cargar el juego y que debe contener las opciones que puede seleccionar el usuario.
 
@@ -36,14 +38,13 @@ Nos ayudaría bastante que en la pantalla de inicio añadieras nuestro logo. Pue
 
 ![](images/title.png)
 
-## Ending
+### Ending
 
 Esta imagen (assets/screens/ending.scr) se mostrará cuando el usuario se pase el juego.
 
 ![](images/ending.png)
 
-## HUD
-
+### HUD
 
 Esta imagen (assets/screens/hud.scr) se mostrará debajo de tu juego para indicarle al usuario cuanta vida le queda y cuantas llaves e items ha recolectado.
 
@@ -51,4 +52,19 @@ Tiene el mismo tamaño que las anteriores pero solo necestas diseñar la parte d
 
 ![](images/hud.png)
 
+## Pantallas opcionales (Sólo 128K)
+
+Las siguientes pantallas no son obligatorias y solo funcionarán en la versión 128K (128Kenabled)
+
+### Intro
+
+Esta pantalla (assets/screens/intro.scr) se mostrará cuando el usuario elija la opción de control para jugar antes de que se inicie el juego, para contrinuar con el juego el usuario deberá pulsar intro. Si no está este fichero en la carpeta assets/screens el motor considerará que no está habilitada y el juego iniciará de inmediato.
+
+![](images/intro.png)
+
+### Game over
+
+Esta pantalla (assets/screens/gameover.scr) se mostrará cuando nos maten en el juego antes de volver al menú principal y el usuario deberá pulsar enter para que este se muestre. Si no está este fichero en la carpeta assets/screens el motor considerará que no está habilitada y el juego mostrará el habitoal texto de GAME OVER en mitad de la pantalla y esperara al enter también.
+
+![](images/gameover.png)
 
