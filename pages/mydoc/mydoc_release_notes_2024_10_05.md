@@ -6,6 +6,7 @@ summary:
 sidebar: mydoc_sidebar
 permalink: mydoc_release_notes_2024_10_05.html
 folder: mydoc
+toc: false
 ---
 
 ## Nuevas funcionalidades
