@@ -27,8 +27,8 @@ entries:
         url: /mydoc_install_tiled.html
         output: web, pdf
 
-      - title: Docker
-        url: /mydoc_install_docker.html
+      - title: Python
+        url: /mydoc_install_python.html
         output: web, pdf
       
       - title: Proyecto
@@ -123,6 +123,12 @@ entries:
         output: web, pdf
       - title: 4. FX y Música
         external_url: https://www.youtube.com/watch?v=yMbJWd3NoPA
+        output: web, pdf
+  - title: Avanzado. Modificar el motor
+    output: web, pdf
+    folderitems:
+      - title: Estructura
+        url: /mydoc_engine_structure.html
         output: web, pdf
 
   - title: Release Notes

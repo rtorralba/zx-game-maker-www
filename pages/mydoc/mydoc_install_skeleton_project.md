@@ -8,11 +8,11 @@ permalink: mydoc_install_skeleton_project.html
 folder: mydoc
 ---
 
-Una vez instaladas las herramientas ya solo tienes que descargarte el "skeleton" de tu juego/proyecto, que es como una plantilla con un juego muy sencillo para que ya tengas todo preconfigurado, y que puedes cambiarlo para hacer tu juego.
+Una vez instaladas las herramientas ya solo tienes que descargarte el engine para crear tu juego, que es como una plantilla con un juego muy sencillo para que ya tengas todo preconfigurado, y que puedes cambiarlo para hacer tu juego.
 
-Al descargar el skeleton/proyecto, descomprimirlo y cambiar el nombre de la carpeta por el nombre de tu juego no uses espacios ni acentos, diéresis... para este. Por ejemplo podéis usar guiones medios y nombrar a la carpeta como **mi-juego-super-molon**.
+Al descargar el proyecto, descomprimirlo y cambiar el nombre de la carpeta por el nombre de tu juego no uses espacios ni acentos, diéresis... para este. Por ejemplo podéis usar guiones medios y nombrar a la carpeta como **mi-juego-super-molon**.
 
-[DESCARGAR EL SKELETON DEL PROYECTO](https://github.com/rtorralba/zx-game-maker-skeleton/archive/refs/heads/main.zip)
+[DESCARGAR EL ENGINE](https://github.com/rtorralba/zx-game-maker/archive/refs/heads/main.zip)
 
 Todo lo que influye a la hora de generar tu juego se encuentra en la carpeta **assets**, con lo que os recomiendo que vayáis haciendo copia de esa carpeta por el método que prefiáis (Copia manual, control de versiones...).
 
