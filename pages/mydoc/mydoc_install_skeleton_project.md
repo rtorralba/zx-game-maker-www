@@ -20,7 +20,7 @@ La manera de trabajar es simplemente modificar los elementos dentro de la carpet
 
 **Windows**
 
-Doble clic en **make-game.bat**
+Botón derecho sobre **make-game.bat**, ejecutar con Power Shell
 
 **Linux y MacOS**
 
