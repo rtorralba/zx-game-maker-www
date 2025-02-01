@@ -32,6 +32,9 @@ Propiedades personalizadas:
 * **hiScore**. Habilita la puntuación in game y el guardado de la misma para que aparezca en la pantalla de menú.
 * **initialLife**. Cantidad de vida inicial del personaje.
 * **ink**. Color de la tinta in game. Muy útil cuando se cambia el color de fondo del juego y del hud.
+* **itemsCountdown**. El marcador de items mostrará el número total de items que tiene que conseguir el jugador al principio del juego e irá descendiendo para que veas los items que te quedan por recoger.
+* **itemsEnabled**. Si no está habilitado no se mostrará el marcador de items.
+* **keysEnabled**. Si no está habilitado no se podrán usar llaves ni puertas de las que se abren con llaves.
 * **killJumpingOnTop**. Habilita el poder de matar a los enemigos saltando encima. (Solo juego plataformas)
 * **lifeAmount**. Cantidad de vida que incrementa al personaje los items **life**.
 * **maxEnemiesPerScreen**. Se puede configurar la cantidad de enemigos que aparecen en pantalla (hasta 5). Evitar poner más de los que se usan para optimizar espacio.
@@ -40,6 +43,7 @@ Propiedades personalizadas:
 * **password**. Password que se pedirá al iniciar el juego para poder jugar. Útil para juegos con más de una carga con sistema de passwords. El password debe ser de 8 caracteres y puede ser alfanumérico, pero no utilices carácteres no ingleses como ñ, acentos...
 * **shooting**. Con esto habilitamos o deshabilitamos el disparo del personaje.
 * **shouldKillEnemies**. Con esta propiedad activa, si una habitación tiene enemigos, no podremos salir de ella hasta que los matemos a todos.
+* **useBreakableTile**. Posibilidad de usar tiles que se rompen. Si está habilitado el tile que se romperá será el que esté definido en la posición 63 del tileset.
 * **waitPressKeyAfterLoad**. Si habilitas esta opción, tras la carga el juego esperará que pulses una tecla para mostrar el menú.
 * **backgroundAttribute**. Color de fondo del juego en decimal en forma de atributos de spectrum. Por ejemplo para color de fondo negro con sprites en blanco seria 7 (00000111). Para color de fondo azul con sprites en blanco seria 15 (00001111). Si no se define este atributo se pintara fondo negro sprites blancos. Podéis usar la calculadora siguiente para saber que valor tenéis que poner.
 
