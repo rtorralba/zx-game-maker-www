@@ -39,6 +39,7 @@ Propiedades personalizadas:
 * **lifeAmount**. Cantidad de vida que incrementa al personaje los items **life**.
 * **maxEnemiesPerScreen**. Se puede configurar la cantidad de enemigos que aparecen en pantalla (hasta 5). Evitar poner más de los que se usan para optimizar espacio.
 * **musicEnabled**. Para habilitar o deshabilitar la música AY. Si se habilita la música el juego resultante sólo funcionará en 128K, para hacer una versión 48K tendrás que desmarcar guardar y volver a compilar.
+* **newBeeperPlayer**. Para utilizar en nuevo reproductor de beeper mejorado para que el juego se pare mucho menos mientras suena debes activar esta opción. IMPORTANTE: Si quieres aprovechar las bondades de este nuevo player debes hacer los sonidos como se indica en [la sección de FX del manual](/mydoc_sound_fx.html).
 * **paper**. Color del papel in game. Muy útil cuando se cambia el color de fondo del juego y del hud.
 * **password**. Password que se pedirá al iniciar el juego para poder jugar. Útil para juegos con más de una carga con sistema de passwords. El password debe ser de 8 caracteres y puede ser alfanumérico, pero no utilices carácteres no ingleses como ñ, acentos...
 * **shooting**. Con esto habilitamos o deshabilitamos el disparo del personaje.
