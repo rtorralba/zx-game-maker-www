@@ -41,6 +41,10 @@ entries:
         url: /mydoc_images_screens.html
         output: web, pdf
 
+      - title: Tutorial ZX Painbrush
+        url: /mydoc_zx_paintbrush.html
+        output: web, pdf
+
       - title: Tileset
         url: /mydoc_images_tileset.html
         output: web, pdf
