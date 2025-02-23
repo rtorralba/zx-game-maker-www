@@ -23,6 +23,8 @@ Uno de los 2 exe es sin filtros y el otro tiene una visualización RF (Cable de 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/PCtAzEJobtI?si=JR2-TRXdRSCmNCai" title="Redefinir teclas y creación de .exe con emulador Spectral incluido" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+EXE con filtro RF
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Lt_O-h0xFOU?si=VHmfYEFy51fHXUAI" title="Generación de .exe con emulador Spectral en modo RF" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
