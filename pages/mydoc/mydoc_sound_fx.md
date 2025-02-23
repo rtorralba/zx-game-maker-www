@@ -45,6 +45,7 @@ Para exportar tus efectos de sonido para el ZX Spectrum Game Maker, sólo tendr�
 * Deseleccionar **Include basic test**
 * Pulsar **Compile**
 * Guardar el archivo en tu carpeta **assets/fx** con el nombre **fx.asm**
+* Ejecutar el script make-fx.ps1 de la raiz del proyecto si estás en Windows o make-fx.sh si estás el Linux o MacOS
 
 ![](images/beepfx_compile_new.png)
 
