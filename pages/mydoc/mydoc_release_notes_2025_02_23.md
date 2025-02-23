@@ -4,7 +4,7 @@ tags: [documentation]
 keywords:
 summary: 
 sidebar: mydoc_sidebar
-permalink: mydoc_release_notes_2025_02_23tml
+permalink: mydoc_release_notes_2025_02_23.html
 folder: mydoc
 toc: false
 ---
