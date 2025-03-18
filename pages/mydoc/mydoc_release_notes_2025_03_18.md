@@ -25,3 +25,8 @@ toc: false
 * Arreglado error de bala que desaparecia.
 * Arreglado error de distancia de bala en función del protagonista.
 * Optimizada gestión de bala.
+* Optimizada la animación de tiles.
+
+## Nuevas funcionalidades
+
+* Posibilidad de usar hasta 10 tiles animados por pantalla.
