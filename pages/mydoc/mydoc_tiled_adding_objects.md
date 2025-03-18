@@ -84,6 +84,8 @@ Para ello deberás tener preparado tu tileset con el tile que tengas pensado ani
 
 Para setear un tile de este tipo haz clic en la rueda dentada de propiedades del tileset, selecciona el tile que desees y escribe **animated** en la casilla Class.
 
+Sólo se animarán 10 tiles por pantalla.
+
 ![](images/tileset_con_tiles_animados.png)
 
 ![](images/velas_animadas.gif)
