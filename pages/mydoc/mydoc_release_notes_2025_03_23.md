@@ -30,7 +30,7 @@ toc: false
 * Tiles que hacen daño
 * Tiles animados
 
-![](images/memory-bank-0-128k.png)
+![](images/memory-bank-0-128K.png)
 
 ### Banco 3
 * Pantalla de inicio (Menú)
@@ -68,4 +68,4 @@ toc: false
 * Tiles que hacen daño
 * Tiles animados
 
-![](images/memory-bank-0-48k.png)
+![](images/memory-bank-0-48K.png)
