@@ -16,3 +16,56 @@ toc: false
 ## Mejoras técnicas
 
 * Refactorizada gran parte del código de generación de ficheros a cargar desde ZX Basic Boriel para mejor organización
+* Utilizamos un banco de memoria nuevo donde hemos movido los FX, de manera que la distribución de la memoría ahora queda de la siguiente manera:
+
+### 128K
+
+#### Banco 0
+* Mapas
+* Enemigos
+* Tileset
+* Atributos
+* Spriteset
+* Objetos
+* Tiles que hacen daño
+* Tiles animados
+
+![](images/memory-bank-0-128k.png)
+
+### Banco 3
+* Pantalla de inicio (Menú)
+* Pantalla de fin
+* HUD
+* Pantalla de introducción
+* Pantalla de game over
+
+![](images/memory-bank-3.png)
+
+### Banco 4
+* Música del inicio
+* Música in game
+
+![](images/memory-bank-4.png)
+
+### Banco 6
+* FX
+
+![](images/memory-bank-6.png)
+
+### 48K
+
+#### Banco 0
+* FX
+* Pantalla de inicio (Menú)
+* Pantalla de fin
+* HUD
+* Mapas
+* Enemigos
+* Tileset
+* Atributos
+* Spriteset
+* Objetos
+* Tiles que hacen daño
+* Tiles animados
+
+![](images/memory-bank-0-48k.png)
