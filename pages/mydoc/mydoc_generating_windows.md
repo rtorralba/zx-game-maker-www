@@ -28,9 +28,9 @@ Al generar el juego también se generarán en la carpeta **dist** unas imágenes
 * Tiles que hacen daño
 * Tiles animados
 
-![](images/memory-bank-0-128k.png)
+![](images/memory-bank-0-128K.png)
 
-### Banco 3
+#### Banco 3
 * Pantalla de inicio (Menú)
 * Pantalla de fin
 * HUD
@@ -39,13 +39,13 @@ Al generar el juego también se generarán en la carpeta **dist** unas imágenes
 
 ![](images/memory-bank-3.png)
 
-### Banco 4
+#### Banco 4
 * Música del inicio
 * Música in game
 
 ![](images/memory-bank-4.png)
 
-### Banco 6
+#### Banco 6
 * FX
 
 ![](images/memory-bank-6.png)
@@ -66,5 +66,5 @@ Al generar el juego también se generarán en la carpeta **dist** unas imágenes
 * Tiles que hacen daño
 * Tiles animados
 
-![](images/memory-bank-0-48k.png)
+![](images/memory-bank-0-48K.png)
 

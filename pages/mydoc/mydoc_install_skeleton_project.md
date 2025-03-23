@@ -53,7 +53,7 @@ Los ficheros de la carpeta output los puedes borrar sin problema porque son todo
 
 ![](images/memory-bank-0-128K.png)
 
-### Banco 3
+#### Banco 3
 * Pantalla de inicio (Menú)
 * Pantalla de fin
 * HUD
@@ -62,13 +62,13 @@ Los ficheros de la carpeta output los puedes borrar sin problema porque son todo
 
 ![](images/memory-bank-3.png)
 
-### Banco 4
+#### Banco 4
 * Música del inicio
 * Música in game
 
 ![](images/memory-bank-4.png)
 
-### Banco 6
+#### Banco 6
 * FX
 
 ![](images/memory-bank-6.png)
