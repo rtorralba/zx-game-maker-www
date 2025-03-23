@@ -12,6 +12,11 @@ toc: false
 ## Nuevas funcionalidades
 
 * Posibilidad de añadir música AY en el menú (128K)
+* Mejorada la salida resultado de la compilación para que se vea que ha tardado cada proceso y un resumen de ocupación de memoría por banco.
+
+![](images/consola_salida_128K.jpg)
+
+![](images/consola_salida_48K.jpg)
 
 ## Mejoras técnicas
 
