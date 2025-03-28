@@ -20,6 +20,8 @@ folder: mydoc
 * [Isaías](https://isaiasdiaz.itch.io/) make-game.bat
 * [shiru8bit](http://shiru.untergrund.net) Beeper FX Sounds
 * [Juan Antonio Rubio García](https://twitter.com/JuanAntonio1072) Corrección de errores y ASM
+* [Conrado Badenas](https://conradobadenas.wordpress.com/)
+* [programadorhedonista](https://github.com/programadorhedonista)
 
 ## Special Thanks
 
