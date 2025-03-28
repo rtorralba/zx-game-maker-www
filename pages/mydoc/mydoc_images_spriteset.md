@@ -16,17 +16,18 @@ Debes crear/editar el fichero assets/sprites.zxp de 256x32px añadiendo tus spri
 
 Los primeros 8 sprites están reservados para la animación del protagonista:
 * Los 2 primeros para el movimiento hacia la derecha
-* El 3ª 1er frame de subir/bajar escaleras. 
+* El 3ª frame hacia la derecha extra si la opción **mainCharacterExtraFrame** está activada. 
 * El 4º para el salto hacia la derecha.
 * El 5º y 6º siguientes para el movimiento hacia la izquierda.
-* El 7º 2º frame de subir/bajar escaleras
+* El 7º El 3ª frame hacia la izquierda extra si la opción **mainCharacterExtraFrame** está activada. 
 * El 8º para el salto hacia la izquierda.
+* 9º y 10º Plataforma 1
+* 11º y 12º Plataforma 2
+* 13º y 14º Animación idle del personaje si la opción **idleTime** es distinta de 0 o Plataforma 3
+* 15º Libre
+* El 16, se usará para mostrar la explosión del enemigo cuando lo mates.
 
-Los siguientes 6 sprites (9 - 14) se usarán para las plataformas en movimiento encima de las cuales el protagonista podrá saltar. 3 plataformas con 2 sprites de animación para cada una.
-
-El 15 de momento queda libre.
-
-El último sprite, el 16, se usará para mostrar la explosión del enemigo cuando lo mates.
+![](./images/sprites.png)
 
 ### Vista cenital
 
@@ -41,12 +42,6 @@ El último sprite, el 16, se usará para mostrar la explosión del enemigo cuand
 
 ## Segunda fila
 Los 16 sprites de la segunda fila se usarán para los enemigos, 2 para cada enemigo, 2 frames de animación, es decir, podrás definir un total de 8 enemigos. Tiene que dibujar solamente los frames del enemigo hacia la derecha.
-
-## Ejemplo lateral (Plataformas)
-
-![](./images/sprites.png)
-
-## Ejemplo cenital
 
 ![](./images/sprites_cenital.png)
 

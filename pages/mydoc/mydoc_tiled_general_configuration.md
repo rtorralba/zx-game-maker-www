@@ -14,6 +14,7 @@ Para mostrar estás configuraciones tienes que ir al menú Mapa -> Atributos del
 
 Propiedades personalizadas:
 
+* **128Kenabled**. Habilitar el modo 128K, si está desactivado se generará el juego para 48K.
 * **VTPLAYER_INIT**. Posición de memoria inicial para la música vortex (Se verá en el capítulo de música en el juego)
 * **VTPLAYER_MUTE**. Posición de memoria de mute para la música vortex (Se verá en el capítulo de música en el juego)
 * **VTPLAYER_NEXTNOTE**. Posición de memoria para reproducir la próxima nota para la música vortex (Se verá en el capítulo de música en el juego)
@@ -30,6 +31,7 @@ Propiedades personalizadas:
 * **gameView**. Tipo de juego a desarrollar, side es un juego de plataformas lateral, y overhead, un juego de vista cenital.
 * **goalItems**. Número de items necesarios para finalizar el juego.
 * **hiScore**. Habilita la puntuación in game y el guardado de la misma para que aparezca en la pantalla de menú.
+* **idleTime**. Setea el tiempo a esperar a que el personaje haga la animación idle. Si está a 0 no se activará.
 * **initialLife**. Cantidad de vida inicial del personaje.
 * **ink**. Color de la tinta in game. Muy útil cuando se cambia el color de fondo del juego y del hud.
 * **itemsCountdown**. El marcador de items mostrará el número total de items que tiene que conseguir el jugador al principio del juego e irá descendiendo para que veas los items que te quedan por recoger.
@@ -37,11 +39,14 @@ Propiedades personalizadas:
 * **keysEnabled**. Si no está habilitado no se podrán usar llaves ni puertas de las que se abren con llaves.
 * **killJumpingOnTop**. Habilita el poder de matar a los enemigos saltando encima. (Solo juego plataformas)
 * **lifeAmount**. Cantidad de vida que incrementa al personaje los items **life**.
+* **mainCharacterExtraFrame**. Si está habilitado, la animación del personaje usara el frame extra.
+* **maxAnimatedTilesPerScreen**. Máximo de tiles animados por pantalla (10 máximo). Si utilizas menos pon un valor más bajo para ahorrar espacio.
 * **maxEnemiesPerScreen**. Se puede configurar la cantidad de enemigos que aparecen en pantalla (hasta 5). Evitar poner más de los que se usan para optimizar espacio.
 * **musicEnabled**. Para habilitar o deshabilitar la música AY. Si se habilita la música el juego resultante sólo funcionará en 128K, para hacer una versión 48K tendrás que desmarcar guardar y volver a compilar.
 * **newBeeperPlayer**. Para utilizar en nuevo reproductor de beeper mejorado para que el juego se pare mucho menos mientras suena debes activar esta opción. IMPORTANTE: Si quieres aprovechar las bondades de este nuevo player debes hacer los sonidos como se indica en [la sección de FX del manual](/mydoc_sound_fx.html).
 * **paper**. Color del papel in game. Muy útil cuando se cambia el color de fondo del juego y del hud.
 * **password**. Password que se pedirá al iniciar el juego para poder jugar. Útil para juegos con más de una carga con sistema de passwords. El password debe ser de 8 caracteres y puede ser alfanumérico, pero no utilices carácteres no ingleses como ñ, acentos...
+* **redefineKeysEnabled**. Habilita la opción de redefinir teclas.
 * **shooting**. Con esto habilitamos o deshabilitamos el disparo del personaje.
 * **shouldKillEnemies**. Con esta propiedad activa, si una habitación tiene enemigos, no podremos salir de ella hasta que los matemos a todos.
 * **useBreakableTile**. Posibilidad de usar tiles que se rompen. Si está habilitado el tile que se romperá será el que esté definido en la posición 63 del tileset.

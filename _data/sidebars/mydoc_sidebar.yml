@@ -102,15 +102,11 @@ entries:
         url: /mydoc_sound_music.html
         output: web, pdf
   
-  - title: Generar el juego
+  - title: Uso del motor
     output: web, pdf
     folderitems:
-      - title: Windows
-        url: /mydoc_generating_windows.html
-        output: web, pdf
-
-      - title: Linux y Mac OS
-        url: /mydoc_generating_linux.html
+      - title: Interfaz gráfica
+        url: /mydoc_engine_use.html
         output: web, pdf
 
   - title: Curso en vídeo
