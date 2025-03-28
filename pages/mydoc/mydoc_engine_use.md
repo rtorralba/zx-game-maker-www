@@ -19,6 +19,8 @@ Para abrir la interfaz gráfica solo tendrás que hacer doble clic en **launcher
 Genera el juego.
 #### Game (Verbose)
 Genera el juego mostrando más información para comprobar si hay errores.
+#### FX
+Generación de los FX después de editarlos si usas el nuevo player de beeper.
 ### Map
 #### Open map
 Abre el mapa con el Tiled
