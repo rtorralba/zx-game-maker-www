@@ -10,7 +10,10 @@ folder: mydoc
 
 ![](images/engine_ui.png)
 
-Para abrir la interfaz gráfica solo tendrás que hacer doble clic en **launcher.bat si estas en windows** o **launcher.desktop si estás en linux**.
+Para abrir la interfaz gráfica solo tendrás que hacer doble clic en:
+* zxsgm.windows.bat -> windows
+* zxsgm.linux.sh -> linux
+* zxsgm.macos.sh -> macos
 
 ## Menús
 
