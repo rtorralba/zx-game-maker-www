@@ -8,12 +8,14 @@ permalink: mydoc_engine_use.html
 folder: mydoc
 ---
 
-![](images/engine_ui.png)
+## Abrir el ZX Spectrum Game Maker
 
 Para abrir la interfaz gráfica solo tendrás que hacer doble clic en:
 * zxsgm.windows.bat -> windows
 * zxsgm.linux.sh -> linux
 * zxsgm.macos.sh -> macos
+
+![](images/engine_ui.png)
 
 ## Menús
 
