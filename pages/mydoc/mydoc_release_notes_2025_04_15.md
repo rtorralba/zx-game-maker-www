@@ -18,6 +18,7 @@ folder: mydoc
 * Utilización de "preshited sprites" en la librería GuSprites con reducción de espación en la parte del código y en el banco de 128K
 * Refactor y limpeza del código
 
+
 Agradecer a [Singleton John](https://singletonjohn.itch.io/) por ayudarme "debugando" en windows datos que necesitava para la conversión de zxp a preshifted sprites.
 
 ## Videos
