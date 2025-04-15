@@ -45,18 +45,17 @@ Los 16 sprites de la segunda fila se usarán para los enemigos, 2 para cada enem
 
 ![](./images/sprites_cenital.png)
 
-## Enemigos hacia la izquierda
-El motor si solo tienes 2 filas de sprites **generará los sprites de los enemigos automáticamente hacia la izquierda** debajo de lo que se han definido quedando de la siguiente manera:
+## Tercera fila. Enemigos hacia la izquierda
 
-![](./images/sprites_izquierda_automated.png)
+La tercera fila es para los enemigos cuando van hacia la izquierda. Si simplemente es el mismo sprite pero volteado a la izquierda puedes hacerlo facilmente con ZX Paintbrush.
 
-Si quieres customizar los enemigos hacia la izquierda lo único que tienes que hacer es añadir al PNG una fila más al spriteset, entonces el motor entenderá que prefieres definir tu el espejo de los sprites y no lo hará automáticamente. Por ejemplo en la siguiente imagen de manera manual hemos definido que el primer enemigo hacia la izquierda tiene el mismo sprite, por lo tanto no girará.
+* Seleccionas el sprite con la herramienta de selección de 16x16.
+* Copias (Ctrl+C) y pegas el sprite en la fila de abajo (Ctrl+V).
+* Después seleccionas la opción de menú Edit -> Flip Horizontally -> Flip Horizontal Pixels
 
-![](./images/sprites_izquierda_manual.png)
+![](./images/flip_horizontally.png)
 
-![](./images/sprites_izquierda_manual.gif)
-
-Para añadir una fila debajo del spriteset solo tendremos de aumentar el tamaño en altura de 32 a 48 diciendole que crezca hacía abajo. Para hacerlo desde ZX Paintbrush iremos al menú View -> Resize picture y en **Select dest. orientation** seleccionaremos la 2ª opción y en **height pondremos 48**
+Si vienes de una versión anterior donde no se definía una 3ª fila y no sabes como añadirla, solo tendremos de aumentar el tamaño en altura de 32 a 48 diciendole que crezca hacía abajo. Para hacerlo desde ZX Paintbrush iremos al menú View -> Resize picture y en **Select dest. orientation** seleccionaremos la 2ª opción y en **height pondremos 48**
 
 ![](./images/zx-paintbrush-resize-picture-menu.png)
 ![](./images/zx-paintbrush-resize-picture-options.png)

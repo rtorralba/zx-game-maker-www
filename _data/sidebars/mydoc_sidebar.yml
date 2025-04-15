@@ -52,6 +52,10 @@ entries:
       - title: Spriteset
         url: /mydoc_images_spriteset.html
         output: web, pdf
+      
+      - title: Bala
+        url: /mydoc_images_bullet.html
+        output: web, pdf
   - title: Diseñando el juego
     output: web, pdf
     folderitems:
@@ -89,6 +93,10 @@ entries:
       
       - title: Añadiendo plataformas móviles
         url: /mydoc_tiled_adding_platforms.html
+        output: web, pdf
+      
+      - title: Arcade mode
+        url: /mydoc_tiled_arcade_mode.html
         output: web, pdf
 
   - title: Sonido
