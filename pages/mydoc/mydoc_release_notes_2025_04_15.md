@@ -18,6 +18,8 @@ folder: mydoc
 * Utilización de "preshited sprites" en la librería GuSprites con reducción de espación en la parte del código y en el banco de 128K
 * Refactor y limpeza del código
 
+Agradecer a [Singleton John](https://singletonjohn.itch.io/) por ayudarme "debugando" en windows datos que necesitava para la conversión de zxp a preshifted sprites.
+
 ## Videos
 
 ### Interfaz visual
@@ -25,5 +27,3 @@ folder: mydoc
 
 ### Modo arcade
 <iframe width="560" height="315" src="https://www.youtube.com/embed/rYt84n_4cLQ?si=8WghiVBhmNC4WoWf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-Gracias especialmente a [Singleton John](https://singletonjohn.itch.io/) por ayudarme "debugando" en windows datos que necesitava para la conversión de zxp a preshifted sprites.
