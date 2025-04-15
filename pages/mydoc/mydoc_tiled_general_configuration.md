@@ -23,7 +23,7 @@ Propiedades personalizadas:
 * **animatePeriodEnemy**. Número más alto, animación de los enemigos más lenta.
 * **animatePeriodMain**. Número más alto, animación del personaje principal más lenta.
 * **animatePeriodTile**. Número más alto, animación de los tiles más lenta.
-* **arcadeMode**. Si esta propiedad está activada el juego se comportará en modo arcade. Puedes ver este comportamiento aqui.
+* **arcadeMode**. Si esta propiedad está activada el juego se comportará en modo arcade. Puedes ver este comportamiento [aqui](https://gm.retrojuegos.org/mydoc_tiled_arcade_mode.html).
 * **border**. Color del borde in game. Muy útil cuando se cambia el color de fondo del juego y del hud.
 * **bulletDistance**. Distancia que queramos que recorra la bala. El valor 0 se traduce como distancia infinita, la bala no parará hasta que choque con algún obstáculo. Si seteamos una distancia corta como de 2, da el efecto de que el personaje ataca con el arma a corta distancia como una espada.
 * **damageAmount**. Cuánto daño le hacen al personaje los enemigos.

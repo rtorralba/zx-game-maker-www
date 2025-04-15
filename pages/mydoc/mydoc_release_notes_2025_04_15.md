@@ -11,7 +11,7 @@ folder: mydoc
 ## Nuevas funcionalidades
 * Interfaz visual para todas las acciones del motor
 * Posibilidad de ver animación de sprites desde la interfaz visual.
-* Modo arcade
+* [Modo arcade](https://gm.retrojuegos.org/mydoc_tiled_arcade_mode.html)
 * Hi score in game
 
 ## Mejoras técnicas
