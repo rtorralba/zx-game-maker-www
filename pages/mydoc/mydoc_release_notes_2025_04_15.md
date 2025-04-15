@@ -15,7 +15,7 @@ folder: mydoc
 * Hi score in game
 
 ## Mejoras técnicas
-* Utilización de "preshited sprites" en la librería GuSprites con reducción de espación en la parte del código y en el banco de 128K
+* Utilización de "preshited sprites" en la librería GuSprites con reducción de espacio en la parte del código y en el banco de 128K
 * Refactor y limpeza del código
 
 
