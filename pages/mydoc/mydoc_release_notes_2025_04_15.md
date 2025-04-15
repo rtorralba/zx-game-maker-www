@@ -1,10 +1,10 @@
 ---
-title: Release notes. 2025-03-28
+title: Release notes. 2025-04-15
 tags: [documentation]
 keywords:
 summary: 
 sidebar: mydoc_sidebar
-permalink: mydoc_release_notes_2025_03_28.html
+permalink: mydoc_release_notes_2025_04_15.html
 folder: mydoc
 ---
 
