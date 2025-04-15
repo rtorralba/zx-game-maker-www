@@ -19,7 +19,7 @@ folder: mydoc
 * Refactor y limpeza del código
 
 
-Agradecer a [Singleton John](https://singletonjohn.itch.io/) por ayudarme "debugando" en windows datos que necesitava para la conversión de zxp a preshifted sprites.
+Agradecer a [Singleton John](https://singletonjohn.itch.io/) por ayudarme "debugando" en windows datos que necesitaba para la conversión de zxp a preshifted sprites.
 
 ## Videos
 
