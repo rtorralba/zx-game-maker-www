@@ -57,6 +57,16 @@ Para ello solo tienes que añadir una propiedad personalizada **life** **de tipo
 
 Para añadir enemigos invencibles solo tendras que ponerle en el atributo **life** el valor **99**.
 
+## Velocidad
+
+Puedes establecer la velocodad del enemigo, para ello solo tienes que añadir en el mismo una propiedad personalizada **speed** de tipo **enemySpeed** y seleccionar entre 1, 2 o 3. Si no añades la porpiedad se establecerá a 3 como venía funcionando hasta ahora.
+* 1. El enemigo se moverá cada 4 frames.
+* 2. El enemigo se moverá cada 2 frames.
+* 3. El enemigo se moverá cada 1 frame (Opción por defecto).
+
+![](images/enemyspeed.png)
+
+
 <!-- ## Color
 
 Se le puede cambiar al enemigo el color simplemente añadiendo una propiedad personalizada **color** **de tipo int** donde tienes que poner el color de spectrum (0-7) deseado.
