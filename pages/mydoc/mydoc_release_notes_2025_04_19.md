@@ -9,6 +9,6 @@ folder: mydoc
 ---
 
 ## Nuevas funcionalidades
-* Posibilidad der establecer 3 velocidades a los enemigos
+* Posibilidad der establecer **3 velocidades a los enemigos**
 
 ![](images/enemyspeed.png)
