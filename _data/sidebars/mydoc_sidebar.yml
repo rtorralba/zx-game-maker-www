@@ -142,6 +142,9 @@ entries:
   - title: Release Notes
     output: web, pdf
     folderitems:
+    - title: 2025-05-09
+      url: /mydoc_release_notes_2025_05_09.html
+      output: web, pdf
     - title: 2025-04-19
       url: /mydoc_release_notes_2025_04_19.html
       output: web, pdf
