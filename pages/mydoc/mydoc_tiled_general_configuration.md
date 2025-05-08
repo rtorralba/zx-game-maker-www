@@ -37,6 +37,8 @@ Propiedades personalizadas:
 * **ink**. Color de la tinta in game. Muy útil cuando se cambia el color de fondo del juego y del hud.
 * **itemsCountdown**. El marcador de items mostrará el número total de items que tiene que conseguir el jugador al principio del juego e irá descendiendo para que veas los items que te quedan por recoger.
 * **itemsEnabled**. Si no está habilitado no se mostrará el marcador de items.
+* **jetPackFuel**. La cantidad de fuel para el jetPack, se es ditinto de 0 el personaje no saltará y se impulsará con el jetPack.
+* **jumpType**. **constant** Salto con una velocidad hacia arriba y hacia abajo constante, el original del motor. **accelerated** Salto con deceleración hacia arriba y acelereción hacia abajo.
 * **keysEnabled**. Si no está habilitado no se podrán usar llaves ni puertas de las que se abren con llaves.
 * **killJumpingOnTop**. Habilita el poder de matar a los enemigos saltando encima. (Solo juego plataformas)
 * **lifeAmount**. Cantidad de vida que incrementa al personaje los items **life**.
