@@ -8,7 +8,9 @@ permalink: mydoc_install_python.html
 folder: mydoc
 ---
 
-Para que este game maker funcione correctamente en todos los sistemas operativos, hay que instalar una versión 3.12 o superior de python.
+Para que este game maker funcione correctamente en todos los sistemas operativos, hay que instalar una versión 13.3 o superior de python.
+
+**NOTA:** Si usáis windows seleccionad la opción que esta abajo del asistente de instalación "Añadir Python al PATH".
 
 [PYTHON](https://www.python.org/downloads/)
 
