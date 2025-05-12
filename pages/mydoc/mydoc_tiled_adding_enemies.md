@@ -45,6 +45,12 @@ El enemigo permite 3 tipos de movimiento:
 
 ![](images/enemigos_movimiento_diagonal.png)
 
+* **Perseguidor**, el enemigo persigue al jugador allá donde esté.
+
+Para que esto sea así hay que añadir la propiedad **followPlayer** de tipo **bool** y no añadir punto final _¡importante!_ o será uno de los anteriores movimientos.
+
+![](images/enemigos_perseguidores.png)
+
 ## Cantidad de vida
 
 Puedes asignarle la cantidad de vida que tiene cada enemigo, por ejemplo si le pones cantidad de vida 5 el protagonista le tendrá que disparar 5 veces para matarlo.

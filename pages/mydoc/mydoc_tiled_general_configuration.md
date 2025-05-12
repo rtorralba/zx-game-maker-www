@@ -27,6 +27,7 @@ Propiedades personalizadas:
 * **border**. Color del borde in game. Muy útil cuando se cambia el color de fondo del juego y del hud.
 * **bulletDistance**. Distancia que queramos que recorra la bala. El valor 0 se traduce como distancia infinita, la bala no parará hasta que choque con algún obstáculo. Si seteamos una distancia corta como de 2, da el efecto de que el personaje ataca con el arma a corta distancia como una espada.
 * **damageAmount**. Cuánto daño le hacen al personaje los enemigos.
+* **enemiesPursuit**. Esto permite indicar que enemigos marcados con **followPlayer** persigan a tu personaje.
 * **enemiesRespawn**. Si los enemigos (no invencibles) vuelven a aparecer des pués de matarlos al volver a entrar en la habitación.
 * **gameName**. Nombre del juego. Aparecerá en el título loading cuando carga y el tap se generará con este nombre. 10 carácteres como máximo sin carácteres especiales (acentos, ñ...)
 * **gameView**. Tipo de juego a desarrollar, side es un juego de plataformas lateral, y overhead, un juego de vista cenital.
