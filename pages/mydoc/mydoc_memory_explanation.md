@@ -47,7 +47,7 @@ En este banco solo guardamos los FX, también podremos verlo a través del engin
 ### Explicación gráfica de la memoria
 #### Memoria OK
 ![](images/explicacion_memoria_ok.png)
-#### Memoria KO por exceso de opciones activadas (Núcleo del motor)
+#### Memoria KO por música de duración excesiva
 ![](images/explicacion_memoria_ko_nucleo.png)
 #### Memoria KO por exceso de pantallas, enemigos, tiles de daño...
 ![](images/explicacion_memoria_ko_banco.png)
