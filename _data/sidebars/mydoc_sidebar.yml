@@ -118,7 +118,7 @@ entries:
         output: web, pdf
       
       - title: Explicación memoria
-        url: /mydoc_engine_memory.html
+        url: /mydoc_memory_explanation.html
         output: web, pdf
 
   - title: Curso en vídeo
