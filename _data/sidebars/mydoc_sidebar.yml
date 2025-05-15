@@ -116,6 +116,10 @@ entries:
       - title: Interfaz gráfica
         url: /mydoc_engine_use.html
         output: web, pdf
+      
+      - title: Explicación memoria
+        url: /mydoc_engine_memory.html
+        output: web, pdf
 
   - title: Curso en vídeo
     output: web, pdf
