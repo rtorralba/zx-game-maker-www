@@ -8,7 +8,7 @@ permalink: mydoc_memory_explanation.html
 folder: mydoc
 ---
 
-## Explicación de la memória
+## Explicación de la memória (128K)
 
 Una de las cosas que tenemos que tenr en cuenta a la hora de diseñar un juego es la memoria que disponermos para alojar los elementos del mismo.
 Para vigilar no pasarnos de memoria vamos a diferenciar 5 zonas de memória:
