@@ -1,5 +1,5 @@
 ---
-title: Explicación de la memoria
+title: Explicación de la memoria (128K)
 tags: [documentation]
 keywords:
 summary: 
