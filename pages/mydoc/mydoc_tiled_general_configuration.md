@@ -42,6 +42,7 @@ Propiedades personalizadas:
 * **keysEnabled**. Si no está habilitado no se podrán usar llaves ni puertas de las que se abren con llaves.
 * **killJumpingOnTop**. Habilita el poder de matar a los enemigos saltando encima. (Solo juego plataformas)
 * **lifeAmount**. Cantidad de vida que incrementa al personaje los items **life**.
+* **livesMode**. Habilitado tu personaje morirá cada vez que reciba daño perdiendo 1 vida y volviendo al punto donde entró de la pantalla actual. A su vez sólo ganará 1 vida con los items **life**. Puedes ver este comportamiento [aqui](https://gm.retrojuegos.org/mydoc_tiled_lives_mode.html).
 * **mainCharacterExtraFrame**. Si está habilitado, la animación del personaje usara el frame extra.
 * **maxAnimatedTilesPerScreen**. Máximo de tiles animados por pantalla (10 máximo). Si utilizas menos pon un valor más bajo para ahorrar espacio.
 * **maxEnemiesPerScreen**. Se puede configurar la cantidad de enemigos que aparecen en pantalla (hasta 5). Evitar poner más de los que se usan para optimizar espacio.
