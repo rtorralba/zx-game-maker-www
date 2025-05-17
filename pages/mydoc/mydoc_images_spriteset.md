@@ -24,7 +24,7 @@ Los primeros 8 sprites están reservados para la animación del protagonista:
 * 9º y 10º Plataforma 1
 * 11º y 12º Plataforma 2
 * 13º y 14º Animación idle del personaje si la opción **idleTime** es distinta de 0 o Plataforma 3
-* 15º Libre
+* 15º Graveyard, imagen que aparece en el modo vidas si el mismo está activado.
 * El 16, se usará para mostrar la explosión del enemigo cuando lo mates.
 
 ![](./images/sprites.png)
