@@ -46,6 +46,7 @@ Propiedades personalizadas:
 * **mainCharacterExtraFrame**. Si está habilitado, la animación del personaje usara el frame extra.
 * **maxAnimatedTilesPerScreen**. Máximo de tiles animados por pantalla (10 máximo). Si utilizas menos pon un valor más bajo para ahorrar espacio.
 * **maxEnemiesPerScreen**. Se puede configurar la cantidad de enemigos que aparecen en pantalla (hasta 5). Evitar poner más de los que se usan para optimizar espacio.
+* **messagesEnabled**. Si se activa esta opción se mostrará un mensaje de ayuda cuando se entre en contacto con algún item. puerta...
 * **musicEnabled**. Para habilitar o deshabilitar la música AY. Si se habilita la música el juego resultante sólo funcionará en 128K, para hacer una versión 48K tendrás que desmarcar guardar y volver a compilar.
 * **newBeeperPlayer**. Para utilizar en nuevo reproductor de beeper mejorado para que el juego se pare mucho menos mientras suena debes activar esta opción. IMPORTANTE: Si quieres aprovechar las bondades de este nuevo player debes hacer los sonidos como se indica en [la sección de FX del manual](/mydoc_sound_fx.html).
 * **paper**. Color del papel in game. Muy útil cuando se cambia el color de fondo del juego y del hud.
