@@ -15,4 +15,11 @@ Mensajes que ayudan al usuario a saber que iene que hacer, por ejemplo cuando ne
 ### Enemigos que persiguen.
 Nuevo movimiento de los enemigos que perseguiran al protagonista.
 
+### Nueva velocidad más lenta
+Ahora se puede setear la velocidad de los enemigos a 0 que es cada 16 frames, la más lenta de todas.
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/545vtsWbEuA?si=Y5AgZIPnT6Ph4cZW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+## Mejoras
+* Mayor estabilidad y colisión con plataformas.
+* Mejorada la colisión al saltar sobre los enemigos.
