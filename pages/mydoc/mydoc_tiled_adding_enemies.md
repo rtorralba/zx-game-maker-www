@@ -45,6 +45,8 @@ El enemigo permite 3 tipos de movimiento:
 
 ![](images/enemigos_movimiento_diagonal.png)
 
+* **Perseguir al protagonista**, El enemigo perseguirá al protagonista, simplemente hay que colocar el enemigo (poniendo en class enemy como siempre), sin definir punto de destino.
+
 ## Cantidad de vida
 
 Puedes asignarle la cantidad de vida que tiene cada enemigo, por ejemplo si le pones cantidad de vida 5 el protagonista le tendrá que disparar 5 veces para matarlo.
@@ -60,9 +62,9 @@ Para añadir enemigos invencibles solo tendras que ponerle en el atributo **life
 ## Velocidad
 
 Puedes establecer la velocodad del enemigo, para ello solo tienes que añadir en el mismo una propiedad personalizada **speed** de tipo **enemySpeed** y seleccionar entre 1, 2 o 3. Si no añades la porpiedad se establecerá a 3 como venía funcionando hasta ahora.
-* 1. El enemigo se moverá cada 4 frames.
-* 2. El enemigo se moverá cada 2 frames.
-* 3. El enemigo se moverá cada 1 frame (Opción por defecto).
+1. El enemigo se moverá cada 4 frames.
+2. El enemigo se moverá cada 2 frames.
+3. El enemigo se moverá cada 1 frame (Opción por defecto).
 
 ![](images/enemyspeed.png)
 
