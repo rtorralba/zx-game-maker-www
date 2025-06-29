@@ -55,6 +55,10 @@ Propiedades personalizadas:
 * **shooting**. Con esto habilitamos o deshabilitamos el disparo del personaje.
 * **shouldKillEnemies**. Con esta propiedad activa, si una habitación tiene enemigos, no podremos salir de ella hasta que los matemos a todos.
 * **useBreakableTile**. Posibilidad de usar tiles que se rompen. Si está habilitado el tile que se romperá será el que esté definido en la posición 63 del tileset.
+Puedes elegir entre 3 opciones:
+    * disabled. No hay tiles rompibles.
+    * all. Si hay tiles rompibles y al romper uno se rompen todos los de la habitación.
+    * individual. Si hay tiles rompibles y se rompen 1 a 1.
 * **waitPressKeyAfterLoad**. Si habilitas esta opción, tras la carga el juego esperará que pulses una tecla para mostrar el menú.
 * **backgroundAttribute**. Color de fondo del juego en decimal en forma de atributos de spectrum. Por ejemplo para color de fondo negro con sprites en blanco seria 7 (00000111). Para color de fondo azul con sprites en blanco seria 15 (00001111). Si no se define este atributo se pintara fondo negro sprites blancos. Podéis usar la calculadora siguiente para saber que valor tenéis que poner.
 

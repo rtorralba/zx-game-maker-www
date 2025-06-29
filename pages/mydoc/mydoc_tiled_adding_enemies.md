@@ -47,6 +47,12 @@ El enemigo permite 3 tipos de movimiento:
 
 * **Perseguir al protagonista**, El enemigo perseguirá al protagonista, simplemente hay que colocar el enemigo (poniendo en class enemy como siempre), sin definir punto de destino.
 
+* **Sin retorno**. el enemigo solo se moverá en una dirección y cuando llegue al final saldrá del mismo punto inicial. Como ese enemigo no necesita sprites en el sentido contrario, puedes utilizarlos de manera que el primer sprite que correspondería al sentido contrario de este enmigo es la animación de salida y el siguiente el de llegada.
+
+![](images/spriteset_no_return.png)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/BgKVaTydw0k?si=CWNUgT_Q5eWhreEK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ## Cantidad de vida
 
 Puedes asignarle la cantidad de vida que tiene cada enemigo, por ejemplo si le pones cantidad de vida 5 el protagonista le tendrá que disparar 5 veces para matarlo.
