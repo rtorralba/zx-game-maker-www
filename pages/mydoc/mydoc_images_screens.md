@@ -61,13 +61,13 @@ Para saber que es cada cosa le hemos puesto distintos colores a cada elemento y 
 
 ![](images/hud-tileset.png)
 
-* L -> Life
-* A -> Ammo
-* K -> Keys
-* S -> Score
-* I -> Items
-* M -> Messages
-* F -> Fuel
+* L -> Life (3 caracteres)
+* A -> Ammo (3 caracteres)
+* K -> Keys (2 caracteres)
+* S -> Score (5 caracteres)
+* I -> Items (2 caracteres)
+* M -> Messages (8 caracteres)
+* F -> Fuel (3 caracteres)
 
 ## Pantallas opcionales (Sólo 128K)
 
