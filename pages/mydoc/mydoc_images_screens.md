@@ -66,7 +66,7 @@ Para saber que es cada cosa le hemos puesto distintos colores a cada elemento y 
 * K -> Keys (2 caracteres)
 * S -> Score (5 caracteres)
 * I -> Items (2 caracteres)
-* M -> Messages (8 caracteres)
+* M -> Messages (2 líneas de 8 caracteres)
 * F -> Fuel (3 caracteres)
 
 ## Pantallas opcionales (Sólo 128K)
