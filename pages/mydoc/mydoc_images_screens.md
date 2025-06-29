@@ -52,6 +52,23 @@ Tiene el mismo tamaño que las anteriores pero solo necestas diseñar la parte d
 
 ![](images/hud.png)
 
+#### Cambiar la posición de los elementos del HUD
+Para cambiar la posición de los elementos del HUD, vida, munición, llaves, marcador... Solo tienes que abrir el fichero assets/screens/hud.tmx com en Tiled y mover dichos elementos de la capa de objetos a donde queráis que imprima esos datos.
+
+![](images/hud_positioning.png)
+
+Para saber que es cada cosa le hemos puesto distintos colores a cada elemento y la inicial.
+
+![](images/hud-tileset.png)
+
+* L -> Life
+* A -> Ammo
+* K -> Keys
+* S -> Score
+* I -> Items
+* M -> Messages
+* F -> Fuel
+
 ## Pantallas opcionales (Sólo 128K)
 
 Las siguientes pantallas no son obligatorias y solo funcionarán en la versión 128K (128Kenabled)
