@@ -32,6 +32,8 @@ De todas lás músicas anteriores el motor sabe perfectamente cuando han de sona
 
 Con ese puntero le estarás diciendo al motor a partir de que pantalla debe sonar esa música.
 
+![](images/music_specify_change.png)
+
 Una vez suene esa musica no podrás volver a una anterior, solo podrás cambiar a la siguiente o Ending o Game Over si terminas el juego o termina tu energía.
 
 ## Como crear los TAP de música
@@ -45,6 +47,8 @@ Para exportar iremos a la opción File > Exports > Save with ZX Spectrum player
 ![](images/vortex_export_menu.png)
 
 Sólo tenéis que seleccionar para exportar la opción **TAP-file (player and module separately** y OK.
+
+![](images/vortex_compilation_address.png)
 
 Recodad que para que la música suene tebéis que activar la propiedad en nuestro mapa **musicEnabled**
 
