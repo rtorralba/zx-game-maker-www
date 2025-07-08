@@ -10,7 +10,7 @@ folder: mydoc
 
 ## Nuevas funcionalidades
 ### Mensajes de ayuda.
-Mensajes que ayudan al usuario a saber que iene que hacer, por ejemplo cuando necesita llaves para abrir una puerta, si tienes que matar a los enemigos...
+Mensajes que ayudan al usuario a saber que tiene que hacer, por ejemplo cuando necesita llaves para abrir una puerta, si tienes que matar a los enemigos...
 
 ### Enemigos que persiguen.
 Nuevo movimiento de los enemigos que perseguiran al protagonista.
