@@ -26,6 +26,8 @@ Para tu juego puedes añadir 6 músicas distintas, para diferenciarlas tentras q
 * Ending o final del juego (ending.tap)
 * Game Over (gameover.tap)
 
+Si tienes activada la opción **musicEnabled** en la configuración solo la música In Game 1 es obligatoria, si no quieres poner alguna de ellaa, solo tienes que no poner o borrar el tap correspondiente.
+
 De todas lás músicas anteriores el motor sabe perfectamente cuando han de sonar menos 2, In Game 2 y In Game 3, para indecarselo al motor, solo tendrás que aádir un puntero en **Tiled** como los que usas para delimitar el movimiento de los enemigos, pero con class o type, depende de la versión de Tiled **music2** para la música In Game 2 y music3 para la música In Game 3.
 
 Con ese puntero le estarás diciendo al motor a partir de que pantalla debe sonar esa música.
