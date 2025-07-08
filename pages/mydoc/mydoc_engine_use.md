@@ -11,9 +11,7 @@ folder: mydoc
 ## Abrir el ZX Spectrum Game Maker
 
 Para abrir la interfaz gráfica solo tendrás que hacer doble clic en:
-* zxsgm.windows.bat -> windows
-* zxsgm.linux.sh -> linux
-* zxsgm.macos.sh -> macos
+* zxsgm.py
 
 ![](images/engine_ui.png)
 
