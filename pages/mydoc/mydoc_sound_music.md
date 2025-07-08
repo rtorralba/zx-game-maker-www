@@ -16,41 +16,35 @@ Para hacer nuestra música usaremos el Vortex Tracker II.
 
 La podéis hacer vosotros mismos o tal vez alguien que entienda de musiquilla os lo puede pasar en forma de proyecto.pt3.
 
-## Música in game
+## Que música puedes añadir en tu juego (128K)
 
-Una vez ya con la música hecha, hay que **exportar el proyecto** a un fichero music.tap dentro de la carpeta assets/music, es decir la ruta quedará **assets/music/music.tap**
+Para tu juego puedes añadir 6 músicas distintas, para diferenciarlas tentras que nombrarlas como aparece a continuación entre paréntesis:
+* Title o Menú (title.tap)
+* In Game 1 (music.tap)
+* In Game 2 (music2.tap)
+* In Game 3 (music3.tap)
+* Ending o final del juego (ending.tap)
+* Game Over (gameover.tap)
+
+De todas lás músicas anteriores el motor sabe perfectamente cuando han de sonar menos 2, In Game 2 y In Game 3, para indecarselo al motor, solo tendrás que aádir un puntero en **Tiled** como los que usas para delimitar el movimiento de los enemigos, pero con class o type, depende de la versión de Tiled **music2** para la música In Game 2 y music3 para la música In Game 3.
+
+Con ese puntero le estarás diciendo al motor a partir de que pantalla debe sonar esa música.
+
+Una vez suene esa musica no podrás volver a una anterior, solo podrás cambiar a la siguiente o Ending o Game Over si terminas el juego o termina tu energía.
+
+## Como crear los TAP de música
+
+El motor funciona con el player Vortex Tracker II de Bulba como hemos comentado, por lo que tendrás que crear o buscar ficheros para este programa, PT3, VT o VT2.
+
+Una vez ya con la música hecha, hay que **exportar el proyecto** a un fichero music.tap dentro de la carpeta assets/music con los nombres anteriormente explicados
 
 Para exportar iremos a la opción File > Exports > Save with ZX Spectrum player
 
 ![](images/vortex_export_menu.png)
 
-Tenéis que poner en la opción **Compilation address** el valor que os da en el título como máximo. No le des a OK de momento que tienes que copiar unos valores en tu proyecto.
+Sólo tenéis que seleccionar para exportar la opción **TAP-file (player and module separately** y OK.
 
-![](images/vortex_compilation_address.png)
-
-Ahora antes de cerrar tenéis que copiar los valores que os ha dado a la derecha en las propiedades de tu mapa en tiled (tienen que ser de tipo string).
-
-![](images/vortex_custom_properties.png)
-
-Ahora tenéis que **seleccionar la opción .TAP-file (player and module separately), darle a OK y guardar el fichero como music.tap en la carpeta **assets/music**
-
-![](images/vortex_tap_file.png)
-
-Ya finalmente hay que crear una propiedad en nuestro mapa de tipo bool para activar o desactivar la música que llamaremos **musicEnabled**
+Recodad que para que la música suene tebéis que activar la propiedad en nuestro mapa **musicEnabled**
 
 ![](images/tiled_music_enabled.png)
-
-## Música de la pantalla de título (menú)
-
-Una vez ya con la música hecha, hay que **exportar el proyecto** a un fichero **title.tap** dentro de la carpeta assets/music, es decir la ruta quedará **assets/music/title.tap**
-
-Para exportar iremos a la opción File > Exports > Save with ZX Spectrum player
-
-![](images/vortex_export_menu.png)
-
-Tenéis que poner en la opción **Compilation address** el valor **$C000** (Cuidado que es distinto de la música in game).
-
-Ahora tenéis que **seleccionar la opción .TAP-file (player and module separately), darle a OK y guardar el fichero como title.tap en la carpeta **assets/music**
-
-Con esto es suficiente, para la música del menú no es necesario configurar los valores en Tiled. ZX Spectrum Game Maker solo con ver el fichero ya te añadirá la música en el menú.
 
