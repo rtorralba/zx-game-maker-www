@@ -38,8 +38,11 @@ const puppeteer = require('puppeteer');
     });
 
     for (let i = 0; i < links.length; i++) {
+        if (links[i].endsWith('.pdf')) {
+            continue; // Skip links that end with .pdf
+        }
         if (links[i].startsWith(website_url)) {
-            await page.goto(links[i], { waitUntil: 'networkidle0' });
+            await page.goto(links[i], { waitUntil: 'networkidle0', timeout: 60000 });
             // get the title of the page and rename to underscore
             let title = await page.title();
 
