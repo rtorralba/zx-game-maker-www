@@ -25,4 +25,6 @@ Anteriormente se restringía a 1 elemento de cada tipo (Item, Life, Ammo, Key, D
 ## Agradecimientos
 Queríamos dar un agradecimiento especial a [Cronomantic](https://x.com/cronomantic) por su ayuda la funcionalidad de la música y a [Carlos ITV](https://x.com/Charlyitv) por el currazo de testeo tan intensivo como bien presentado.
 
+<p></p>
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/8WBksEtrlPI?si=uBR9hfCTzkCuz_ta" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
