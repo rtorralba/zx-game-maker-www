@@ -23,7 +23,7 @@ Anteriormente se restringía a 1 elemento de cada tipo (Item, Life, Ammo, Key, D
 * Resolución de errores.
 
 ## Agradecimientos
-Queríamos dar un agradecimiento especial a [Cronomantic](https://x.com/cronomantic) por su ayuda la funcionalidad de la música y a [Carlos ITV](https://x.com/Charlyitv) por el currazo de testeo tan intensivo como bien presentado.
+Queríamos dar un agradecimiento especial a [Cronomantic](https://x.com/cronomantic) por su ayuda la funcionalidad de la música, a [Carlos ITV](https://x.com/Charlyitv) por el gran trabajo de testeo tan intensivo como bien presentado. Y por supuesto a [Beyker](https://elbeyker.blogspot.com/?m=1) por cedernos su música para los ejemplos.
 
 <p></p>
 
