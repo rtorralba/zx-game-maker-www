@@ -10,6 +10,8 @@ folder: mydoc
 
 Debes crear/editar el fichero assets/sprites.zxp de 256x32px añadiendo tus sprites (personaje, enemigos...) y donde cada uno de estos tendrá una dimensión de 16x16px.
 
+Los sprites no tienen color, con lo que solo tienes que dibujarlos usando paper negro y ink blanco.
+
 ## Primera fila
 
 ### Vista lateral (Plataformas)
