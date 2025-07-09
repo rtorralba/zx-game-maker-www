@@ -30,19 +30,19 @@ Si nos fijamos en el primer sprite, en la parte superior derecha, vemos un cará
 
 ![](./images/zx-paintbrush/character_up_right_attributes.png)
 
-Si yo ahora elijo ink azul y paper verde, os pasará una cosa que a muchos os sorprende, porque no es lo que suele ocurrir en los programas de diseño habituales, pero es lo normal en spoectrum siatendemos a la restrición de que en cada carácter **sólo puede hacer definido un paper y un ink**.
+Si yo ahora elijo ink azul y paper verde, os pasará una cosa que a muchos os sorprende, porque no es lo que suele ocurrir en los programas de diseño habituales, pero es lo normal en spectrum si atendemos a la restrición de que en cada carácter **sólo puede haber definido un paper y un ink**.
 
 ![](./images/zx-paintbrush/ink_blue_paper_green.png)
 
-Una vez elegido ink y paper, con el botón izquierdo piinto ink y con el derecho paper, si por ejemplo pongo un pixel en cualquier zona de ese caracter con lo seleccionado fijaros en lo que pasa.
+Una vez elegido ink y paper, con el botón izquierdo pinto ink y con el derecho paper, si por ejemplo pongo un pixel en cualquier zona de ese caracter con lo seleccionado fijaros en lo que pasa.
 
 ![](./images/zx-paintbrush/character_up_right_attributes_edited.png)
 
-Algo raro en otros programas de diseño pero normal si diseñas para ZX Spectrum, ya que si elegimos ink azul y papel verde, como en cada carácter solo puede haber un ink y un paper, e inicialmente teníamos ink blanco y paper negro, sustituye todo lo que estaba pintado con ink blanco por ink azul, y todo lo que estaba con paper negro por paper verde.
+Algo raro en otros programas de diseño pero normal si diseñas para ZX Spectrum, ya que si elegimos ink azul y paper verde, como en cada carácter solo puede haber un ink y un paper, e inicialmente teníamos ink blanco y paper negro, sustituye todo lo que estaba pintado con ink blanco por ink azul, y todo lo que estaba con paper negro por paper verde.
 
 **Truqui**
 
-ZX Paintbrush, si no seleccionamos ni ink ni paper pintará con el ink y paper que tenga ya ese carácter.
+ZX Paintbrush, si no seleccionamos ni ink ni paper ni bright ni flash pintará con el ink, paper, bright y flash que tenga ya ese carácter.
 
 ![](./images/zx-paintbrush/no_ink_no_paper.png)
 ![](./images/zx-paintbrush/ink_current_character_paper_current_character.png)
