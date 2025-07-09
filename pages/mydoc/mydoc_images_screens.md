@@ -12,7 +12,9 @@ Para crear tus juegos para ZX Spectrum necesitas crear/editar algunas imágenes.
 
 **Pantallas** como la principal, de carga, HUD...
 
-Tienes que crear 4 pantallas en SCR en la carpeta assets/screens loading.scr, title.scr, ending.scr y hud.scr
+Tienes que crear 4 pantallas en SCR en la carpeta assets/screens loading.scr, title.scr, ending.scr y hud.scr.
+
+Opcionalmente puedes crar también una pantalla para la introducción (intro.scr) y/o game over (gameover.scr)
 
 Recomiendo usar programas especializados como [ZX Paintbrush](https://sourcesolutions.itch.io/zx-paintbrush).
 
@@ -33,6 +35,7 @@ Esta imagen (assets/screens/title.scr) es la que se muestra nada más cargar el 
 1. Teclado
 2. Kempston
 3. Sinclair
+4. Redefine (Si lo has habilitado en la [configuración](/mydoc_tiled_general_configuration.html))
 
 Nos ayudaría bastante que en la pantalla de inicio añadieras nuestro logo. Puedes encontrar una versión para spectrum [aquí](images/logo_spectrum.png)
 
