@@ -14,6 +14,7 @@ Posibilidad de establecer los textos que aparecen en el HUD y añadidos algunos 
 
 ## Localización (traducción)
 Posibilidad de establecer los distitos textos y pantallas (scr) en distintos idiomas, totalmente opcional y manteniendo la retrocompatibilidad.
+Si el motor detecta que se ha definido carpeta/s de idioma/s preguntará al compilar en que idioma de desea compilar y generará los ficheros (tap, exe, linux, z80...) en la carpeta del idioma correspondiente en dist.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ZL1FOGTpVCo?si=hzGDjd6ZgozMqLMz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
