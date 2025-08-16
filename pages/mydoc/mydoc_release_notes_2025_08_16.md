@@ -26,4 +26,4 @@ Optimización en general llegando a poder poner hasta 5 enemigos por pantalla co
 Los tiles animados tenian un comportamiento incorrecto cuando se acercaban los sprites, gracias a una mejora de [Conrado Badenas](https://conradobadenas.wordpress.com/) ahora mantienen la animación perfectamente.
 
 ## Arreglada compatibilidad con MacOS
-Después de alguna actualizaciones en MacOs no terminaba de funcionar correctamente. Gracias a la aportación de [Metsuke](https://x.com/metsuke) ya vuelve a funcionar con normalidad.
+Después de alguna actualizaciones, en MacOs no terminaba de funcionar correctamente. Gracias a la aportación de [Metsuke](https://x.com/metsuke) ya vuelve a funcionar con normalidad.
