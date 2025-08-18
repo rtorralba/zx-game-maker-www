@@ -47,5 +47,11 @@ ZX Paintbrush, si no seleccionamos ni ink ni paper ni bright ni flash pintará c
 ![](./images/zx-paintbrush/no_ink_no_paper.png)
 ![](./images/zx-paintbrush/ink_current_character_paper_current_character.png)
 
+# Los sprites no tienen color
 
+Los sprites no tiene color, se pintarán segun lo que indique el tile de fondo, en el siguiente ejemplo podemos ver como en la pantalla de la piscina de ChernobylAI fuera de la piscina el fondo tiene INK blanco y PAPER negro, mientras que dentro de la piscina el fondo tiene INK negro y PAPER Cyan
 
+![](./images/zx-paintbrush/zx-paintbrush-ink-blanco-paper-negro.png)
+![](./images/zx-paintbrush/zx-paintbrush-ink-negro-paper-cyan.png)
+
+Aún así es importante saber cuando estamos pintando el sprite que es INK y PAPER para tener el ejemplo deseado, por ejemplo, lo normal es que la silueta del sprite lo pintes con INK y el fondo con PAPER y no al revés.
