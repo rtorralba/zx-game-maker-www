@@ -11,7 +11,8 @@ folder: mydoc
 # Nuevas funcionalidades
 ## Generación del juego en MacOS
 Hasta ahora al compilar se generaban las versiones normal y RF (CRT) del juego para Windows y Linux, ahora se genera también para MacOS.
-Debemos esta nueva funcionalidad a [BTCO](https://btco-original.itch.io/), autor de juegos destacado y además se ha brindado a testear la plataforma en todos los sistemas operativos. Esto demuestra que gran comunidad rodea al ZX Spectrum Game Maker y que va haciendo que crezca cada día más.
+
+Debemos esta nueva funcionalidad a [BTCO](https://btco-original.itch.io/), autor de juegos destacado y además de realizar esta mejora, se ha brindado a testear la plataforma en todos los sistemas operativos. Esto demuestra que gran comunidad rodea al ZX Spectrum Game Maker y que va haciendo que crezca cada día más.
 
 ## Items con fondo del entorno
 Los tiles cogen el fondo de los del entorno para que se puedan añadir a cualquier fondo y no queden como un "pegote" ni al visualizarlos
