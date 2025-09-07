@@ -22,7 +22,7 @@ ni al recogerlos.
 ## Atajos para acciones frecuentes
 Se han añadido atajos para las acciones más frecuentes como, compilar en los distintos idiomas, abrir juego...
 
-![](frequent_shortcuts.jpg)
+![](images/frequent_shortcuts.jpg)
 
 # Mejoras
 ## Simplicado y estabilizado launcher del motor
