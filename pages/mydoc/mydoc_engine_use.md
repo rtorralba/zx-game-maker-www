@@ -9,11 +9,6 @@ folder: mydoc
 ---
 
 ## Abrir el ZX Spectrum Game Maker
-
-La primera vez hay que ejecutar el instalador de dependencias en función del sistema operativo que tengáis:
-* Windows -> install.windows.bat
-* Linux/MacOs -> install.sh
-
 Para abrir la interfaz gráfica solo tendrás que hacer doble clic en:
 * zxsgm.py
 
