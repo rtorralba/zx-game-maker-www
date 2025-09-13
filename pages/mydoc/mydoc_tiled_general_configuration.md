@@ -15,9 +15,6 @@ Para mostrar estás configuraciones tienes que ir al menú Mapa -> Atributos del
 Propiedades personalizadas:
 
 * **128Kenabled**. Habilitar el modo 128K, si está desactivado se generará el juego para 48K.
-* **VTPLAYER_INIT**. Posición de memoria inicial para la música vortex (Se verá en el capítulo de música en el juego)
-* **VTPLAYER_MUTE**. Posición de memoria de mute para la música vortex (Se verá en el capítulo de música en el juego)
-* **VTPLAYER_NEXTNOTE**. Posición de memoria para reproducir la próxima nota para la música vortex (Se verá en el capítulo de música en el juego)
 * **ammo**. Cantidad de munición con la que empezará el personaje principal. Si seteas -1 el personaje tendrá munición infinita.
 * **ammoIncrement**. Cantidad de munición que se recarga cada vez que el protagonista recoja un item de recarga de munición.
 * **animatePeriodEnemy**. Número más alto, animación de los enemigos más lenta.
@@ -25,8 +22,12 @@ Propiedades personalizadas:
 * **animatePeriodTile**. Número más alto, animación de los tiles más lenta.
 * **arcadeMode**. Si esta propiedad está activada el juego se comportará en modo arcade. Puedes ver este comportamiento [aqui](https://gm.retrojuegos.org/mydoc_tiled_arcade_mode.html).
 * **border**. Color del borde in game. Muy útil cuando se cambia el color de fondo del juego y del hud.
+* **borderColorItem**. Color que quieres que muestre el juego si el prota recoge un item. Solo se activará esta opción si eliges un color distinto del que tengas establecido en border.
+* **borderColorKey**. Color que quieres que muestre el juego si el prota recoge una llave. Solo se activará esta opción si eliges un color distinto del que tengas establecido en border.
+* **borderColorLife**. Color que quieres que muestre el juego si el prota recoge vida. Solo se activará esta opción si eliges un color distinto del que tengas establecido en border.
 * **bulletDistance**. Distancia que queramos que recorra la bala. El valor 0 se traduce como distancia infinita, la bala no parará hasta que choque con algún obstáculo. Si seteamos una distancia corta como de 2, da el efecto de que el personaje ataca con el arma a corta distancia como una espada.
 * **damageAmount**. Cuánto daño le hacen al personaje los enemigos.
+* **disableContinuousJump**. Si habilitas esta opción el personaje no estará continuamente saltando si mantienes pulsado hacia arriba, para volver a saltar deberás soltar el botón arriba y volver a pulsarlo.
 * **enemiesRespawn**. Si los enemigos (no invencibles) vuelven a aparecer des pués de matarlos al volver a entrar en la habitación.
 * **gameName**. Nombre del juego. Aparecerá en el título loading cuando carga y el tap se generará con este nombre. 10 carácteres como máximo sin carácteres especiales (acentos, ñ...)
 * **gameView**. Tipo de juego a desarrollar, side es un juego de plataformas lateral, y overhead, un juego de vista cenital.
@@ -41,10 +42,11 @@ Propiedades personalizadas:
 * **jumpType**. **constant** Salto con una velocidad hacia arriba y hacia abajo constante, el original del motor. **accelerated** Salto con deceleración hacia arriba y acelereción hacia abajo.
 * **keysEnabled**. Si no está habilitado no se podrán usar llaves ni puertas de las que se abren con llaves.
 * **killJumpingOnTop**. Habilita el poder de matar a los enemigos saltando encima. (Solo juego plataformas)
+* **ladersEnabled**. Habilita las escaleras y podrás usarlas en tu juego. Se utilizaran los [4 tiles](/mydoc_images_tileset.html) acontinuación de las plataformas traspasables.
 * **lifeAmount**. Cantidad de vida que incrementa al personaje los items **life**.
 * **livesMode**. Habilitado tu personaje morirá cada vez que reciba daño perdiendo 1 vida y volviendo al punto donde entró de la pantalla actual. A su vez sólo ganará 1 vida con los items **life**. Puedes ver este comportamiento [aqui](https://gm.retrojuegos.org/mydoc_tiled_lives_mode.html).
 * **mainCharacterExtraFrame**. Si está habilitado, la animación del personaje usara el frame extra.
-* **maxAnimatedTilesPerScreen**. Máximo de tiles animados por pantalla (10 máximo). Si utilizas menos pon un valor más bajo para ahorrar espacio.
+* **maxAnimatedTilesPerScreen**. Máximo de tiles animados por pantalla.
 * **maxEnemiesPerScreen**. Se puede configurar la cantidad de enemigos que aparecen en pantalla (hasta 5). Evitar poner más de los que se usan para optimizar espacio.
 * **messagesEnabled**. Si se activa esta opción se mostrará un mensaje de ayuda cuando se entre en contacto con algún item. puerta...
 * **musicEnabled**. Para habilitar o deshabilitar la música AY. Si se habilita la música el juego resultante sólo funcionará en 128K, para hacer una versión 48K tendrás que desmarcar guardar y volver a compilar.

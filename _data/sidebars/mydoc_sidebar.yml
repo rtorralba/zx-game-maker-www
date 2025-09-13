@@ -98,6 +98,10 @@ entries:
       - title: Arcade mode
         url: /mydoc_tiled_arcade_mode.html
         output: web, pdf
+      
+      - title: Traducir juego
+        url: /mydoc_localization.html
+        output: web, pdf
 
   - title: Sonido
     output: web, pdf

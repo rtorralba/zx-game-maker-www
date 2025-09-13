@@ -48,6 +48,7 @@ El enemigo permite 3 tipos de movimiento:
 * **Perseguir al protagonista**, El enemigo perseguirá al protagonista, simplemente hay que colocar el enemigo (poniendo en class enemy como siempre), sin definir punto de destino.
 
 * **Sin retorno**. el enemigo solo se moverá en una dirección y cuando llegue al final saldrá del mismo punto inicial. Como ese enemigo no necesita sprites en el sentido contrario, puedes utilizarlos de manera que el primer sprite que correspondería al sentido contrario de este enmigo es la animación de salida y el siguiente el de llegada.
+Para asignaer este tipo de movimiento tienes que añadir en el enemigo una propiedad **move** de tipo **enemyMovementTypes** y seleccionar el tipo **noReturn**
 
 ![](images/spriteset_no_return.png)
 
@@ -68,10 +69,10 @@ Para añadir enemigos invencibles solo tendras que ponerle en el atributo **life
 ## Velocidad
 
 Puedes establecer la velocidad del enemigo, para ello solo tienes que añadir en el mismo una propiedad personalizada **speed** de tipo **enemySpeed** y seleccionar entre 0, 1, 2 o 3 de más lento a más rápido. Si no añades la propiedad se establecerá a 3 como venía funcionando hasta ahora.
-0. El enemigo se moverá cada 16 frames.
-1. El enemigo se moverá cada 4 frames.
-2. El enemigo se moverá cada 2 frames.
-3. El enemigo se moverá cada 1 frame (Opción por defecto).
+0. Más lento.
+1. El doble de rápido que 0.
+2. El doble de rápido que 1.
+3. Todo lo rápido que permita la CPU. Sin freno.
 
 ![](images/enemyspeed.png)
 

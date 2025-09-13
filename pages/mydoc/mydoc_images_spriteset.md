@@ -24,7 +24,7 @@ Los primeros 8 sprites están reservados para la animación del protagonista:
 * El 7º El 3ª frame hacia la izquierda extra si la opción **mainCharacterExtraFrame** está activada. 
 * El 8º para el salto hacia la izquierda.
 * 9º y 10º Plataforma 1
-* 11º y 12º Plataforma 2
+* 11º y 12º Plataforma 2 o animación prota escaleras si la opción está activada.
 * 13º y 14º Animación idle del personaje si la opción **idleTime** es distinta de 0 o Plataforma 3
 * 15º Graveyard, imagen que aparece en el modo vidas si el mismo está activado.
 * El 16, se usará para mostrar la explosión del enemigo cuando lo mates.
@@ -49,7 +49,11 @@ Los 16 sprites de la segunda fila se usarán para los enemigos, 2 para cada enem
 
 ## Tercera fila. Enemigos hacia la izquierda
 
-La tercera fila es para los enemigos cuando van hacia la izquierda. Si simplemente es el mismo sprite pero volteado a la izquierda puedes hacerlo facilmente con ZX Paintbrush.
+La tercera fila es para los enemigos cuando van hacia la izquierda.
+
+Si el tipo de movimiento del enemigo es **noReturn**, en un solo sentido, el primer sprite correspondiente hacia la izquierda se considerará el frame de inicio de animación y en segundo de fin.
+
+Si simplemente es el mismo sprite pero volteado a la izquierda puedes hacerlo facilmente con ZX Paintbrush.
 
 * Seleccionas el sprite con la herramienta de selección de 16x16.
 * Copias (Ctrl+C) y pegas el sprite en la fila de abajo (Ctrl+V).
@@ -61,4 +65,6 @@ Si vienes de una versión anterior donde no se definía una 3ª fila y no sabes 
 
 ![](./images/zx-paintbrush-resize-picture-menu.png)
 ![](./images/zx-paintbrush-resize-picture-options.png)
+
+Nota: Cuando modifiques el fichero sprites.zxp desde ZX Painbrush, el mismo se actualizará en Tiled automáticamente.
 

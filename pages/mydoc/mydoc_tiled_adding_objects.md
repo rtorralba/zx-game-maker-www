@@ -8,7 +8,9 @@ permalink: mydoc_tiled_adding_objects.html
 folder: mydoc
 ---
 
-Los tiles que representan objetos se tendran que situar los 4 últimos del sprite set (188, 189, 190, 191).
+Los tiles que representan objetos se tendran que situar los 4 últimos del sprite set (187, 189, 190, 191).
+
+Estos tiles cogeran el color de fondo del tile que esté situado a la izquierda para que se pueda "mimetizar" con cualquier color.
 
 ## Item
 
@@ -22,9 +24,9 @@ Para ello haz clic en la rueda dentada de propiedades del tileset, selecciona el
 
 ## Puerta que necesita llave
 
-Este tile será considerado solido para el protagonista. deberás tener al menos una **key** para abrir la puerta y cuando lo hagas se te restará de tu inventario.
+Este tile será considerado sólido para el protagonista. deberás tener al menos una **key** para abrir la puerta y cuando lo hagas se te restará de tu inventario.
 
-Para setear un tile de este tipo haz clic en la rueda dentada de propiedades del tileset, selecciona el tile que desees y escribe **door** en la casilla Class.
+Para setear un tile de este tipo haz clic en la rueda dentada de propiedades del tileset, selecciona el tile que desees y escribe **door** en la casilla Class. El tile de este tipo tiene que ser sólido, del 2 al 64.
 
 Después ya puedes añadirlo a tu mapa arrastrándolo.
 
