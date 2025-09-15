@@ -19,7 +19,7 @@ Posibilidad de añadir un timer que te quitará una vida en el modo vidas y fina
 Ahora puedes establecer que el juego se termine al recoger x items como hasta ahora, pero también eliminar a un enemigo en concreto o ambos simultáneamente.
 
 ## Puerta que se abre al recoger x items
-Puedes usar puertas que se abriran cuando consigas el número de items que hayas configurado en el motor.
+Puedes usar puertas que se abrirán cuando consigas el número de items que hayas configurado en el motor.
 
 ## Tiles que se rompen al tocarlos
 Puedes usar items que se romperán cuando el protagonista los toque.
