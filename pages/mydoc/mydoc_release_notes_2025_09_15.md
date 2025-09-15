@@ -24,6 +24,8 @@ Puedes usar puertas que se abriran coando consigas el número de items que hayas
 ## Tiles que se rompen al tocarlos
 Puedes usar items que se romperan cuando el protagoinista los toque.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/0s2WH1Wn-n4?si=gWO5vXlAqK2gfx57" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 # Mejoras
 ## Actualizaciones
 * Libreria GuSprites
