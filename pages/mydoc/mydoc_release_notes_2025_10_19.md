@@ -1,5 +1,5 @@
 ---
-title: Release notes. 2025-10-119
+title: Release notes. 2025-10-19
 tags: [documentation]
 keywords:
 summary: 
