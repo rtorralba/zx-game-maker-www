@@ -150,6 +150,8 @@ entries:
   - title: Release Notes
     output: web, pdf
     folderitems:
+    - title: 2025-10-19
+      url: /mydoc_release_notes_2025_10_19.html
     - title: 2025-09-15
       url: /mydoc_release_notes_2025_09_15.html
       output: web, pdf
