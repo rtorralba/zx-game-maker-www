@@ -11,9 +11,9 @@ folder: mydoc
 # Nuevas funcionalidades
 ## General
 - **Tiempo que duran los tiles**. Posibilidad de configurar el tiempo que duran los tiles que se rompen al tocar.
-- **Pixel perfect collide**. Posibilidad de habilitar la colisión de los enemigos con el protagonista al pixel. Anteriormente, y continua siendo la opción por defecto si no habilitas esta propiedad, era más "benevola" con el jugador.
+- **Pixel perfect collide**. Posibilidad de habilitar la colisión de los enemigos con el protagonista al pixel. Anteriormente, y continua siendo la opción por defecto si no habilitas esta propiedad, era más "benévola" con el jugador.
 - **Papel y tinta de mensajes por defecto**. Posibilidad de configurar el papel y la tinta de los mensajes por defecto.
-- **Plataformas mimetizadas**. Posibilidad de mimetizar las plataformas atravesables para no tener que usar tiles adicionales porque hay distintos fondos.
+- **Plataformas mimetizadas**. Posibilidad de mimetizar las plataformas "atravesables" para no tener que usar tiles adicionales porque hay distintos fondos.
 - **Nuevas músicas**. Se ha añadido la posibilidad de especificar nuevas músicas, para la pantalla de intro y para cuando consigues el objetivo en el modo arcade.
 - **Tile de ammo disponible**. Cuando el ammo no está habilitado podemos usar ese tile para el fondo.
 - **Hi Score mimetizado**. El mensaje de HI Score del menú se mimetiza con el fondo elegido para que quede integrado.
@@ -41,7 +41,7 @@ folder: mydoc
 - Mejorada la pantalla de redefinir teclas.
 - Arreglado primer tile de animación de los tiles animados.
 - Arreglado aplicación de papel y tinta en algunos mensajes.
-- Al decrementar vida/energia solo se actualiza esta enel HUD.
+- Al decrementar vida/energía solo se actualiza esta enel HUD.
 - Uso de salvador en vez zx0 para comprimir ganando en velocidad de generación del juego.
 - Eliminado botón disparo al redefinir teclas cuando no está habilitado el disparo en el juego.
 
