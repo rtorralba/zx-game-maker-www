@@ -36,6 +36,7 @@ El tiled tiene la posibilidad de alinear los elementos a rejilla, cosa que es ne
 Aprovecho para recomendar esta fenomenal herramienta si alguien no la conoce ya o si quiere donar algo para su mantenimiento.
 
 [https://www.mapeditor.org/](https://www.mapeditor.org/)
+
 [https://thorbjorn.itch.io/tiled](https://thorbjorn.itch.io/tiled)
 
 Y por supuesto agradecer a su autor [Thorbjørn Lindeijer](https://thorbjorn.itch.io/) y todos los contribuidores que mejoran cada dia esta increíble utilidad.
