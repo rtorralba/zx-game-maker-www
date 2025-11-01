@@ -6,7 +6,7 @@ sidebar: mydoc_sidebar
 permalink: index.html
 summary: Herramienta para crear juegos para ZX Spectrum de manera visual.
 ---
-<img src="{{ "images/logo_boriel.png" }}" alt="ZX Spectrum Game Maker Logo" width="200" align="center"/>
+<img src="{{ "images/logo_boriel_200.png" }}" alt="ZX Spectrum Game Maker Logo" width="200" align="center"/>
 
 ## Introducción
 
