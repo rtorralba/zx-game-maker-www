@@ -24,9 +24,19 @@ Para crear tu tileset debes tener en cuenta algunas regla, recuerda que tienes u
 * Los **siguientes 2 tiles** serán considerados plataformas estáticas traspasables desde arriba.
 * Los **siguientes 2 tiles** serán considerados plataformas estáticas traspasables desde abajo y desde arriba.
 * Los **siguientes 2 tiles** serán considerados plataformas estáticas traspasables desde abajo.
+* El **tile 60** repreesenta el tile que se rompe al tocarlo.
+* El **tile 61** es el que se rompe cuando le disparas.
+* El **tile 62** es la puerta de objetivo items, se abre cuando hayas recogido los items configurados para ello.
+* El **tile 63** es la puerta que se abre con llaves.
+* El **tile 64** es la puerta que se abre al matar a todos los enemigos de la pantalla.
 * Los **siguientes 4 tiles** serán considerados escaleras.
-* Los **tiles restantes**, salvo los 5 últimos, serán considerados no sólidos. Si quieres añadir tiles que le causen daño al personaje principal o que sean animados tienen que estar en estos tiles.
-** Los **Últimos 5 tiles** son tiles especiales para objetos cuyo funcionamiento se definira en Tiled.
+* Los **tiles restantes**, salvo los 6 últimos, serán considerados no sólidos. Si quieres añadir tiles que le causen daño al personaje principal o que sean animados tienen que estar en estos tiles.
+* El **tile 187** es el que muestra el mensaje de texto en pantalal al tocarlo.
+* El **tile 188** es el de munición. 
+* El **tile 189** es el de dash.
+* El **tile 190** es el de vida.
+* El **tile 191** es el de item.
+* El **tile 192** es la llave.
 
 ![](./images/tiles.png)
 
